@@ -1,1 +1,0 @@
-The canonical Experiment 14 notebook will be updated in-place to include Graph Oracle and automatic CTD data acquisition.
