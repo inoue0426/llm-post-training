@@ -1,0 +1,16 @@
+split,condition,metric,mean,std,count
+ChemicalID,abstain,clean,0.99,,1
+ChemicalID,abstain,counterfactual,0.97,,1
+ChemicalID,abstain,distractor_5,0.68,,1
+ChemicalID,abstain,hard_no_path,0.89,,1
+ChemicalID,abstain,lexical_no_path,0.79,,1
+ChemicalID,robust,clean,0.99,,1
+ChemicalID,robust,counterfactual,0.99,,1
+ChemicalID,robust,distractor_5,1.0,,1
+ChemicalID,robust,hard_no_path,0.0,,1
+ChemicalID,robust,lexical_no_path,0.0,,1
+ChemicalID,vanilla,clean,0.99,,1
+ChemicalID,vanilla,counterfactual,0.98,,1
+ChemicalID,vanilla,distractor_5,0.86,,1
+ChemicalID,vanilla,hard_no_path,0.0,,1
+ChemicalID,vanilla,lexical_no_path,0.0,,1

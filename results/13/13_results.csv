@@ -1,0 +1,16 @@
+split,seed,condition,metric,score,n_eval
+ChemicalID,1,vanilla,clean,0.99,100
+ChemicalID,1,vanilla,distractor_5,0.86,100
+ChemicalID,1,vanilla,hard_no_path,0.0,100
+ChemicalID,1,vanilla,lexical_no_path,0.0,100
+ChemicalID,1,vanilla,counterfactual,0.98,100
+ChemicalID,1,robust,clean,0.99,100
+ChemicalID,1,robust,distractor_5,1.0,100
+ChemicalID,1,robust,hard_no_path,0.0,100
+ChemicalID,1,robust,lexical_no_path,0.0,100
+ChemicalID,1,robust,counterfactual,0.99,100
+ChemicalID,1,abstain,clean,0.99,100
+ChemicalID,1,abstain,distractor_5,0.68,100
+ChemicalID,1,abstain,hard_no_path,0.89,100
+ChemicalID,1,abstain,lexical_no_path,0.79,100
+ChemicalID,1,abstain,counterfactual,0.97,100

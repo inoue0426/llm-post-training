@@ -1,0 +1,23 @@
+{
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "splits": [
+    "ChemicalID",
+    "GeneID",
+    "DiseaseID"
+  ],
+  "conditions": [
+    "vanilla",
+    "robust",
+    "abstain"
+  ],
+  "train_n": 1500,
+  "eval_n": 100,
+  "max_steps": 80,
+  "batch_size": 4,
+  "grad_acc": 2,
+  "learning_rate": 0.0002
+}
