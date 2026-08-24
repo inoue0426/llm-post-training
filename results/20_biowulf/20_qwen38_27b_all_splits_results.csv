@@ -1,0 +1,331 @@
+model,split,seed,condition,i,target,prediction,correct
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,0,"Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis","Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis",1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,1,Prostatic Neoplasms,Prostatic Neoplasms,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,2,Heart Failure,Heart Failure,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,3,"Glomerulosclerosis, Focal Segmental","Glomerulosclerosis, Focal Segmental",1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,4,Kidney Neoplasms,Kidney Neoplasms,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,5,Myocardial Ischemia,Myocardial Ischemia,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,6,Idiopathic Pulmonary Fibrosis,Idiopathic Pulmonary Fibrosis,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,7,Heart Failure,Heart Failure,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,8,"Leukemia, Lymphocytic, Chronic, B-Cell","Leukemia, Lymphocytic, Chronic, B-Cell",1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,9,Obesity,Obesity,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,10,Cardiotoxicity,Cardiotoxicity,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,11,Diabetic Nephropathies,Diabetic Nephropathies,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,12,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,13,Amphetamine-Related Disorders,Amphetamine-Related Disorders,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,14,Mitochondrial Myopathies,Mitochondrial Myopathies,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,15,"Liver Cirrhosis, Experimental","Liver Cirrhosis, Experimental",1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,16,Coronary Disease,Coronary Disease,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,17,"Shock, Hemorrhagic","Shock, Hemorrhagic",1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,18,Endometriosis,Endometriosis,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,19,Prostatic Neoplasms,Prostatic Neoplasms,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,20,"Disease Models, Animal",No supported path.,0
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,21,Hepatolenticular Degeneration,Hepatolenticular Degeneration,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,22,Norrie disease,Norrie disease,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,23,Blood Coagulation Disorders,Blood Coagulation Disorders,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,24,Partington X-linked mental retardation syndrome,Partington X-linked mental retardation syndrome,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,25,Brain Edema,No supported path,0
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,26,Chemical and Drug Induced Liver Injury,Chemical and Drug Induced Liver Injury,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,27,Bronchial Hyperreactivity,Bronchial Hyperreactivity,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,28,Acute Kidney Injury,Acute Kidney Injury,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,29,Kidney Neoplasms,Kidney Neoplasms,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,30,Antithrombin III Deficiency,Antithrombin III Deficiency,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,31,Cardiovascular Diseases,Cardiovascular Diseases,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,32,Myocardial Infarction,Myocardial Infarction,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,33,Aortic Rupture,Aortic Rupture,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,34,Pain,Pain,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,35,Osteopetrosis with renal tubular acidosis,Osteopetrosis with renal tubular acidosis,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,36,Carcinoma,Carcinoma,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,37,Adenomatous Polyposis Coli,Adenomatous Polyposis Coli,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,38,Cocaine-Related Disorders,No supported path.,0
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,39,Respiratory Insufficiency,Respiratory Insufficiency,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,40,Amyotrophic Lateral Sclerosis,Amyotrophic Lateral Sclerosis,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,41,Endometriosis,Endometriosis,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,42,Ureteral Obstruction,Ureteral Obstruction,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,43,"Carcinoma, Hepatocellular","Carcinoma, Hepatocellular",1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,44,Thrombosis,Thrombosis,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,45,"Carcinoma, Adenoid Cystic","Carcinoma, Adenoid Cystic",1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,46,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,47,"Liver Cirrhosis, Experimental","Liver Cirrhosis, Experimental",1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,48,Fatty Liver,Fatty Liver,1
+Qwen/Qwen3.8-27B,ChemicalID,1,clean,49,Endometrial Neoplasms,Endometrial Neoplasms,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,0,"Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis","Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis",1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,1,Prostatic Neoplasms,No supported path,0
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,2,Heart Failure,No supported path,0
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,3,"Glomerulosclerosis, Focal Segmental","Glomerulosclerosis, Focal Segmental",1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,4,Kidney Neoplasms,Kidney Neoplasms,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,5,Myocardial Ischemia,Myocardial Ischemia,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,6,Idiopathic Pulmonary Fibrosis,Idiopathic Pulmonary Fibrosis,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,7,Heart Failure,Heart Failure,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,8,"Leukemia, Lymphocytic, Chronic, B-Cell","Leukemia, Lymphocytic, Chronic, B-Cell",1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,9,Obesity,Obesity,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,10,Cardiotoxicity,No supported path,0
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,11,Diabetic Nephropathies,Diabetic Nephropathies,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,12,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,13,Amphetamine-Related Disorders,Amphetamine-Related Disorders,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,14,Mitochondrial Myopathies,Mitochondrial Myopathies,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,15,"Liver Cirrhosis, Experimental",No supported path,0
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,16,Coronary Disease,Coronary Disease,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,17,"Shock, Hemorrhagic","Shock, Hemorrhagic",1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,18,Endometriosis,No supported path,0
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,19,Prostatic Neoplasms,Prostatic Neoplasms,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,20,"Disease Models, Animal",No supported path,0
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,21,Hepatolenticular Degeneration,Hepatolenticular Degeneration,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,22,Norrie disease,Norrie disease,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,23,Blood Coagulation Disorders,Blood Coagulation Disorders,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,24,Partington X-linked mental retardation syndrome,Partington X-linked mental retardation syndrome,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,25,Brain Edema,Brain Edema,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,26,Chemical and Drug Induced Liver Injury,Chemical and Drug Induced Liver Injury,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,27,Bronchial Hyperreactivity,Bronchial Hyperreactivity,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,28,Acute Kidney Injury,Acute Kidney Injury,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,29,Kidney Neoplasms,Kidney Neoplasms,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,30,Antithrombin III Deficiency,Antithrombin III Deficiency,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,31,Cardiovascular Diseases,Cardiovascular Diseases,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,32,Myocardial Infarction,Myocardial Infarction,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,33,Aortic Rupture,Aortic Rupture,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,34,Pain,Pain,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,35,Osteopetrosis with renal tubular acidosis,No supported path,0
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,36,Carcinoma,No supported path,0
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,37,Adenomatous Polyposis Coli,No supported path,0
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,38,Cocaine-Related Disorders,No supported path.,0
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,39,Respiratory Insufficiency,Respiratory Insufficiency,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,40,Amyotrophic Lateral Sclerosis,Amyotrophic Lateral Sclerosis,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,41,Endometriosis,Endometriosis,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,42,Ureteral Obstruction,Ureteral Obstruction,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,43,"Carcinoma, Hepatocellular","Carcinoma, Hepatocellular",1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,44,Thrombosis,Thrombosis,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,45,"Carcinoma, Adenoid Cystic","Carcinoma, Adenoid Cystic",1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,46,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,47,"Liver Cirrhosis, Experimental","Liver Cirrhosis, Experimental",1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,48,Fatty Liver,Fatty Liver,1
+Qwen/Qwen3.8-27B,ChemicalID,1,distractor_5,49,Endometrial Neoplasms,Endometrial Neoplasms,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,0,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,1,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,2,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,3,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,4,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,5,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,6,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,7,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,8,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,9,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,10,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,11,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,12,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,13,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,14,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,15,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,16,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,17,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,18,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,19,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,20,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,21,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,22,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,23,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,24,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,25,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,26,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,27,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,28,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,29,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,30,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,31,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,32,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,33,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,34,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,35,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,36,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,37,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,38,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,39,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,40,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,41,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,42,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,43,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,44,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,45,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,46,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,47,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,48,,No supported path,1
+Qwen/Qwen3.8-27B,ChemicalID,1,hard_no_path,49,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,0,Memory Disorders,Memory Disorders,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,1,"Radiation Injuries, Experimental","Radiation Injuries, Experimental",1
+Qwen/Qwen3.8-27B,GeneID,1,clean,2,Long Qt Syndrome 2,Long Qt Syndrome 2,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,3,"Sarcoma, Experimental","Sarcoma, Experimental",1
+Qwen/Qwen3.8-27B,GeneID,1,clean,4,Gastrointestinal Diseases,Gastrointestinal Diseases,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,5,KEPPEN-LUBINSKY SYNDROME,KEPPEN-LUBINSKY SYNDROME,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,6,Prostatic Neoplasms,Prostatic Neoplasms,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,7,Hypertension,Hypertension,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,8,Nephritis,Nephritis,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,9,Drug-Related Side Effects and Adverse Reactions,Drug-Related Side Effects and Adverse Reactions,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,10,Neurodegenerative Diseases,No supported path,0
+Qwen/Qwen3.8-27B,GeneID,1,clean,11,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1
+Qwen/Qwen3.8-27B,GeneID,1,clean,12,Neoplasms,Neoplasms,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,13,Melanoma,Melanoma,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,14,Edema,No supported path,0
+Qwen/Qwen3.8-27B,GeneID,1,clean,15,Aortic Valve Insufficiency,Aortic Valve Insufficiency,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,16,Liver Diseases,Liver Diseases,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,17,"Cardiomyopathy, Dilated, 1y","Cardiomyopathy, Dilated, 1y",1
+Qwen/Qwen3.8-27B,GeneID,1,clean,18,Bone Diseases,Bone Diseases,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,19,Basal Cell Carcinoma,Basal Cell Carcinoma,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,20,Nephritis,Nephritis,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,21,Follicular Cyst,Follicular Cyst,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,22,Chemical and Drug Induced Liver Injury,Chemical and Drug Induced Liver Injury,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,23,Osteoporosis,Osteoporosis,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,24,Hepatomegaly,Hepatomegaly,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,25,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1
+Qwen/Qwen3.8-27B,GeneID,1,clean,26,Brain Ischemia,Brain Ischemia,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,27,Skin Diseases,Skin Diseases,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,28,Nephrosclerosis,Nephrosclerosis,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,29,"Colorectal Adenomatous Polyposis, Autosomal Recessive","Colorectal Adenomatous Polyposis, Autosomal Recessive",1
+Qwen/Qwen3.8-27B,GeneID,1,clean,30,"Cholestasis, Extrahepatic","Cholestasis, Extrahepatic",1
+Qwen/Qwen3.8-27B,GeneID,1,clean,31,Neurogenic Inflammation,Neurogenic Inflammation,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,32,Pheochromocytoma,Pheochromocytoma,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,33,Recurrence,Recurrence,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,34,Congenital bilateral aplasia of vas deferens,Congenital bilateral aplasia of vas deferens,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,35,Prostatic Neoplasms,Prostatic Neoplasms,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,36,Anxiety Disorders,Anxiety Disorders,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,37,Leukopenia,No supported path,0
+Qwen/Qwen3.8-27B,GeneID,1,clean,38,"Thyroid cancer, follicular","Thyroid cancer, follicular",1
+Qwen/Qwen3.8-27B,GeneID,1,clean,39,Hypertension,Hypertension,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,40,Liver Cirrhosis,No supported path,0
+Qwen/Qwen3.8-27B,GeneID,1,clean,41,Heart Failure,Heart Failure,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,42,Celiac Disease,Celiac Disease,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,43,Obesity,Obesity,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,44,"Carcinoma, Ductal, Breast","Carcinoma, Ductal, Breast",1
+Qwen/Qwen3.8-27B,GeneID,1,clean,45,Colonic Neoplasms,Colonic Neoplasms,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,46,Drug-Related Side Effects and Adverse Reactions,No supported path,0
+Qwen/Qwen3.8-27B,GeneID,1,clean,47,Adrenal Gland Neoplasms,Adrenal Gland Neoplasms,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,48,Gliosis,Gliosis,1
+Qwen/Qwen3.8-27B,GeneID,1,clean,49,Colorectal Neoplasms,Colorectal Neoplasms,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,0,Memory Disorders,Memory Disorders,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,1,"Radiation Injuries, Experimental",No supported path,0
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,2,Long Qt Syndrome 2,Long Qt Syndrome 2,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,3,"Sarcoma, Experimental","Sarcoma, Experimental",1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,4,Gastrointestinal Diseases,Gastrointestinal Diseases,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,5,KEPPEN-LUBINSKY SYNDROME,No supported path,0
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,6,Prostatic Neoplasms,Prostatic Neoplasms,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,7,Hypertension,Hypertension,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,8,Nephritis,Nephritis,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,9,Drug-Related Side Effects and Adverse Reactions,Drug-Related Side Effects and Adverse Reactions,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,10,Neurodegenerative Diseases,No supported path,0
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,11,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,12,Neoplasms,No supported path,0
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,13,Melanoma,Melanoma,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,14,Edema,No supported path,0
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,15,Aortic Valve Insufficiency,Aortic Valve Insufficiency,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,16,Liver Diseases,No supported path,0
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,17,"Cardiomyopathy, Dilated, 1y","Cardiomyopathy, Dilated, 1y",1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,18,Bone Diseases,No supported path,0
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,19,Basal Cell Carcinoma,Basal Cell Carcinoma,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,20,Nephritis,Nephritis,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,21,Follicular Cyst,Follicular Cyst,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,22,Chemical and Drug Induced Liver Injury,Chemical and Drug Induced Liver Injury,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,23,Osteoporosis,Osteoporosis,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,24,Hepatomegaly,Hepatomegaly,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,25,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,26,Brain Ischemia,Brain Ischemia,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,27,Skin Diseases,Skin Diseases,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,28,Nephrosclerosis,No supported path,0
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,29,"Colorectal Adenomatous Polyposis, Autosomal Recessive","Colorectal Adenomatous Polyposis, Autosomal Recessive",1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,30,"Cholestasis, Extrahepatic","Cholestasis, Extrahepatic",1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,31,Neurogenic Inflammation,Neurogenic Inflammation,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,32,Pheochromocytoma,Pheochromocytoma,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,33,Recurrence,No supported path,0
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,34,Congenital bilateral aplasia of vas deferens,Congenital bilateral aplasia of vas deferens,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,35,Prostatic Neoplasms,Prostatic Neoplasms,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,36,Anxiety Disorders,Anxiety Disorders,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,37,Leukopenia,Leukopenia,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,38,"Thyroid cancer, follicular","Thyroid cancer, follicular",1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,39,Hypertension,Hypertension,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,40,Liver Cirrhosis,Liver Cirrhosis,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,41,Heart Failure,Heart Failure,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,42,Celiac Disease,Celiac Disease,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,43,Obesity,Obesity,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,44,"Carcinoma, Ductal, Breast","Carcinoma, Ductal, Breast",1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,45,Colonic Neoplasms,Colonic Neoplasms,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,46,Drug-Related Side Effects and Adverse Reactions,No supported path,0
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,47,Adrenal Gland Neoplasms,Adrenal Gland Neoplasms,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,48,Gliosis,Gliosis,1
+Qwen/Qwen3.8-27B,GeneID,1,distractor_5,49,Colorectal Neoplasms,Colorectal Neoplasms,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,0,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,1,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,2,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,3,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,4,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,5,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,6,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,7,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,8,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,9,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,10,,No supported path.,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,11,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,12,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,13,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,14,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,15,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,16,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,17,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,18,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,19,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,20,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,21,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,22,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,23,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,24,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,25,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,26,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,27,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,28,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,29,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,30,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,31,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,32,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,33,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,34,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,35,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,36,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,37,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,38,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,39,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,40,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,41,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,42,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,43,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,44,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,45,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,46,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,47,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,48,,No supported path,1
+Qwen/Qwen3.8-27B,GeneID,1,hard_no_path,49,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,0,Drug Hypersensitivity,Drug Hypersensitivity,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,1,Asthma,Asthma,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,2,Cerebral Hemorrhage,Cerebral Hemorrhage,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,3,Ichthyosis Bullosa of Siemens,Ichthyosis Bullosa of Siemens,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,4,"Arthritis, Rheumatoid","Arthritis, Rheumatoid",1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,5,Chromosome Aberrations,No supported path.,0
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,6,Obesity,Obesity,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,7,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,8,"Micronuclei, Chromosome-Defective",No supported path.,0
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,9,"Arthritis, Rheumatoid","Arthritis, Rheumatoid",1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,10,Fatty Liver,Fatty Liver,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,11,"Osteoporosis, Postmenopausal","Osteoporosis, Postmenopausal",1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,12,Postoperative Pain,Postoperative Pain,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,13,Urologic Neoplasms,Urologic Neoplasms,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,14,Stomach Neoplasms,Stomach Neoplasms,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,15,"Pulmonary Disease, Chronic Obstructive","Pulmonary Disease, Chronic Obstructive",1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,16,Fibrosis,Fibrosis,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,17,Precursor Cell Lymphoblastic Leukemia-Lymphoma,Precursor Cell Lymphoblastic Leukemia-Lymphoma,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,18,Cardiomyopathies,Cardiomyopathies,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,19,Atherosclerosis,Atherosclerosis,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,20,Myocardial Infarction,Myocardial Infarction,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,21,Kearns-Sayre Syndrome,Kearns-Sayre Syndrome,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,22,Mesothelioma,Mesothelioma,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,23,Kearns-Sayre Syndrome,Kearns-Sayre Syndrome,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,24,Acute Kidney Injury,Acute Kidney Injury,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,25,Liver Neoplasms,Liver Neoplasms,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,26,"Arthritis, Rheumatoid","Arthritis, Rheumatoid",1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,27,Atrophy,Atrophy,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,28,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,29,Hemolytic-Uremic Syndrome,Hemolytic-Uremic Syndrome,1

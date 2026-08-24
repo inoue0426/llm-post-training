@@ -1,0 +1,151 @@
+model,split,seed,condition,i,target,prediction,correct
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,0,Drug Hypersensitivity,Drug Hypersensitivity,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,1,Asthma,Asthma,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,2,Cerebral Hemorrhage,Cerebral Hemorrhage,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,3,Ichthyosis Bullosa of Siemens,Ichthyosis Bullosa of Siemens,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,4,"Arthritis, Rheumatoid","Arthritis, Rheumatoid",1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,5,Chromosome Aberrations,No supported path.,0
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,6,Obesity,Obesity,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,7,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,8,"Micronuclei, Chromosome-Defective",No supported path.,0
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,9,"Arthritis, Rheumatoid","Arthritis, Rheumatoid",1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,10,Fatty Liver,Fatty Liver,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,11,"Osteoporosis, Postmenopausal","Osteoporosis, Postmenopausal",1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,12,Postoperative Pain,Postoperative Pain,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,13,Urologic Neoplasms,Urologic Neoplasms,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,14,Stomach Neoplasms,Stomach Neoplasms,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,15,"Pulmonary Disease, Chronic Obstructive","Pulmonary Disease, Chronic Obstructive",1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,16,Fibrosis,Fibrosis,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,17,Precursor Cell Lymphoblastic Leukemia-Lymphoma,Precursor Cell Lymphoblastic Leukemia-Lymphoma,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,18,Cardiomyopathies,Cardiomyopathies,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,19,Atherosclerosis,Atherosclerosis,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,20,Myocardial Infarction,Myocardial Infarction,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,21,Kearns-Sayre Syndrome,Kearns-Sayre Syndrome,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,22,Mesothelioma,Mesothelioma,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,23,Kearns-Sayre Syndrome,Kearns-Sayre Syndrome,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,24,Acute Kidney Injury,Acute Kidney Injury,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,25,Liver Neoplasms,Liver Neoplasms,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,26,"Arthritis, Rheumatoid","Arthritis, Rheumatoid",1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,27,Atrophy,Atrophy,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,28,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,29,Hemolytic-Uremic Syndrome,Hemolytic-Uremic Syndrome,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,30,Acquired Hyperostosis Syndrome,Acquired Hyperostosis Syndrome,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,31,Asthma,Asthma,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,32,Neointima,No supported path.,0
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,33,"Pulmonary Disease, Chronic Obstructive","Pulmonary Disease, Chronic Obstructive",1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,34,"Metabolism, Inborn Errors","Metabolism, Inborn Errors",1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,35,Obesity,Obesity,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,36,Myocardial Infarction,Myocardial Infarction,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,37,Atherosclerosis,Atherosclerosis,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,38,Atherosclerosis,Atherosclerosis,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,39,Glomerulonephritis,Glomerulonephritis,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,40,Fatty Liver,Fatty Liver,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,41,Vitiligo,Vitiligo,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,42,"Carcinoma, Renal Cell","Carcinoma, Renal Cell",1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,43,Albuminuria,Albuminuria,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,44,"Arthritis, Rheumatoid","Arthritis, Rheumatoid",1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,45,Prostatic Neoplasms,Prostatic Neoplasms,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,46,Mesothelioma,Mesothelioma,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,47,Osteosarcoma,Osteosarcoma,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,48,Leprosy,Leprosy,1
+Qwen/Qwen3.8-27B,DiseaseID,1,clean,49,Drug Hypersensitivity,Drug Hypersensitivity,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,0,Drug Hypersensitivity,Drug Hypersensitivity,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,1,Asthma,No supported path,0
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,2,Cerebral Hemorrhage,Cerebral Hemorrhage,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,3,Ichthyosis Bullosa of Siemens,Ichthyosis Bullosa of Siemens,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,4,"Arthritis, Rheumatoid","Arthritis, Rheumatoid",1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,5,Chromosome Aberrations,No supported path,0
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,6,Obesity,Obesity,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,7,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,8,"Micronuclei, Chromosome-Defective","Micronuclei, Chromosome-Defective",1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,9,"Arthritis, Rheumatoid","Arthritis, Rheumatoid",1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,10,Fatty Liver,Fatty Liver,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,11,"Osteoporosis, Postmenopausal","Osteoporosis, Postmenopausal",1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,12,Postoperative Pain,No supported path,0
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,13,Urologic Neoplasms,Urologic Neoplasms,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,14,Stomach Neoplasms,Stomach Neoplasms,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,15,"Pulmonary Disease, Chronic Obstructive","Pulmonary Disease, Chronic Obstructive",1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,16,Fibrosis,Fibrosis,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,17,Precursor Cell Lymphoblastic Leukemia-Lymphoma,Precursor Cell Lymphoblastic Leukemia-Lymphoma,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,18,Cardiomyopathies,Cardiomyopathies,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,19,Atherosclerosis,Atherosclerosis,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,20,Myocardial Infarction,Myocardial Infarction,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,21,Kearns-Sayre Syndrome,Kearns-Sayre Syndrome,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,22,Mesothelioma,Mesothelioma,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,23,Kearns-Sayre Syndrome,Kearns-Sayre Syndrome,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,24,Acute Kidney Injury,Acute Kidney Injury,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,25,Liver Neoplasms,Liver Neoplasms,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,26,"Arthritis, Rheumatoid","Arthritis, Rheumatoid",1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,27,Atrophy,Atrophy,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,28,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,29,Hemolytic-Uremic Syndrome,Hemolytic-Uremic Syndrome,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,30,Acquired Hyperostosis Syndrome,Acquired Hyperostosis Syndrome,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,31,Asthma,Asthma,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,32,Neointima,No supported path.,0
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,33,"Pulmonary Disease, Chronic Obstructive","Pulmonary Disease, Chronic Obstructive",1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,34,"Metabolism, Inborn Errors","Metabolism, Inborn Errors",1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,35,Obesity,Obesity,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,36,Myocardial Infarction,Myocardial Infarction,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,37,Atherosclerosis,Atherosclerosis,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,38,Atherosclerosis,Atherosclerosis,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,39,Glomerulonephritis,Glomerulonephritis,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,40,Fatty Liver,Fatty Liver,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,41,Vitiligo,Vitiligo,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,42,"Carcinoma, Renal Cell","Carcinoma, Renal Cell",1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,43,Albuminuria,No supported path,0
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,44,"Arthritis, Rheumatoid","Arthritis, Rheumatoid",1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,45,Prostatic Neoplasms,Prostatic Neoplasms,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,46,Mesothelioma,Mesothelioma,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,47,Osteosarcoma,Osteosarcoma,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,48,Leprosy,Leprosy,1
+Qwen/Qwen3.8-27B,DiseaseID,1,distractor_5,49,Drug Hypersensitivity,Drug Hypersensitivity,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,0,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,1,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,2,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,3,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,4,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,5,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,6,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,7,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,8,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,9,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,10,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,11,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,12,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,13,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,14,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,15,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,16,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,17,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,18,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,19,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,20,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,21,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,22,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,23,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,24,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,25,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,26,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,27,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,28,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,29,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,30,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,31,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,32,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,33,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,34,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,35,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,36,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,37,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,38,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,39,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,40,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,41,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,42,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,43,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,44,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,45,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,46,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,47,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,48,,No supported path,1
+Qwen/Qwen3.8-27B,DiseaseID,1,hard_no_path,49,,No supported path,1

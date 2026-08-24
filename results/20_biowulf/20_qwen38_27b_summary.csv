@@ -1,0 +1,4 @@
+condition,accuracy
+clean,0.94
+distractor_5,0.9
+hard_no_path,1.0

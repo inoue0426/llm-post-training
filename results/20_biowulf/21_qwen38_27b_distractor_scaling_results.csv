@@ -1,0 +1,11 @@
+model,split,seed,k,example_idx,ChemicalID,GeneID,DiseaseID,ChemicalName,GeneSymbol,target,prediction,correct,error_type,true_edge_position,n_edges
+Qwen/Qwen3.8-27B,ChemicalID,1,0,0,C025643,54453,MESH:C567770,vinclozolin,RIN2,"Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis","Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,0,1,D004997,3479,MESH:D011471,Ethinyl Estradiol,IGF1,Prostatic Neoplasms,Prostatic Neoplasms,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,0,2,C101278,3553,MESH:D006333,decursin,IL1B,Heart Failure,Heart Failure,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,0,3,C006253,10269,MESH:D005923,pirinixic acid,ZMPSTE24,"Glomerulosclerosis, Focal Segmental","Glomerulosclerosis, Focal Segmental",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,0,4,D015056,1543,MESH:D007680,1-Methyl-3-isobutylxanthine,CYP1A1,Kidney Neoplasms,Kidney Neoplasms,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,0,5,D008274,3569,MESH:D017202,Magnesium,IL6,Myocardial Ischemia,Myocardial Ischemia,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,0,6,C022838,10144,MESH:D054990,nickel chloride,FAM13A,Idiopathic Pulmonary Fibrosis,Idiopathic Pulmonary Fibrosis,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,0,7,C078485,7139,MESH:D006333,pelargonidin-3-glucoside,TNNT2,Heart Failure,Heart Failure,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,0,8,D006923,7157,MESH:D015451,Hymecromone,TP53,"Leukemia, Lymphocytic, Chronic, B-Cell","Leukemia, Lymphocytic, Chronic, B-Cell",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,0,9,C036567,348,MESH:D009765,perfluorodecanoic acid,APOE,Obesity,Obesity,1,correct,0,1
