@@ -1,14 +1,14 @@
-# LLM Tuning Playground
+# LLM Post-Training
 
-A hands-on collection of **LLM fine-tuning, preference optimization, and reliability experiments** built with Hugging Face, PEFT, and TRL.
+Hands-on implementations of **LLM fine-tuning, preference optimization, alignment, and reliability evaluation** using Hugging Face, PEFT, and TRL.
 
-This repository is intentionally notebook-first. I use it to prototype training objectives, diagnose model behavior, and run controlled experiments before promoting ideas into larger research codebases.
+This repository is a notebook-first collection of post-training experiments. I use it to prototype training objectives, inspect failure modes, and run controlled evaluations across supervised fine-tuning, preference optimization, reinforcement-learning-style tuning, and large-model inference.
 
-## What this repository demonstrates
+## What is covered
 
 - **Parameter-efficient fine-tuning:** LoRA / QLoRA with PEFT
 - **Supervised fine-tuning (SFT):** instruction tuning and task-specific adaptation
-- **Preference optimization:** DPO and IPO, including prompt/completion boundary checks
+- **Preference optimization:** DPO and IPO, including prompt/completion boundary validation
 - **Reinforcement-learning-style tuning:** GRPO experiments
 - **Reliability evaluation:** distractors, counterfactuals, abstention, and no-evidence cases
 - **Experimental design:** multi-seed runs, entity-disjoint splits, controlled perturbations, and explicit baselines
@@ -19,7 +19,7 @@ This repository is intentionally notebook-first. I use it to prototype training 
 
 | Notebook | Focus |
 | --- | --- |
-| [`01_lora.ipynb`](notebooks/01_lora.ipynb) | LoRA fine-tuning from a minimal instruction-tuning setup |
+| [`01_lora.ipynb`](notebooks/01_lora.ipynb) | Minimal LoRA fine-tuning and before/after generation comparison |
 | [`02_dpo.ipynb`](notebooks/02_dpo.ipynb) | Introductory DPO / preference tuning |
 | [`03_pharma_dpo_fixed.ipynb`](notebooks/03_pharma_dpo_fixed.ipynb) | Preference optimization in a pharmacology-oriented setting |
 | [`05_grpo_drug_target_retrieval_local_fixed.ipynb`](notebooks/05_grpo_drug_target_retrieval_local_fixed.ipynb) | GRPO for drug-target retrieval |
@@ -33,9 +33,9 @@ This repository is intentionally notebook-first. I use it to prototype training 
 
 The numbering reflects the chronological development of the experiments rather than a polished tutorial sequence.
 
-## A recurring testbed: controlled biomedical evidence reasoning
+## Controlled biomedical evidence reasoning
 
-A substantial part of the repository uses a deliberately simple and verifiable task constructed from CTD-style relations:
+A recurring testbed in this repository uses a deliberately simple and verifiable relation chain:
 
 ```text
 Chemical -> Gene -> Disease
@@ -43,21 +43,18 @@ Chemical -> Gene -> Disease
 
 Given a queried chemical and gene plus supplied gene-disease evidence, the model must either return the disease supported by the supplied path or abstain when no supported path exists.
 
-The simplicity is useful: it makes it possible to isolate specific behaviors such as **evidence selection**, **distractor robustness**, **evidence sufficiency**, and **abstention** without relying on an opaque judge model.
+The task is intentionally simple so that specific behaviors can be isolated without relying on an opaque judge model. The experiments examine:
 
-Experiments progressively add:
+- evidence selection under distractors,
+- evidence sufficiency and abstention,
+- counterfactual robustness,
+- entity-disjoint generalization,
+- supervision-induced trade-offs, and
+- behavior under stronger zero-shot models.
 
-1. vanilla SFT,
-2. distractor-aware SFT,
-3. no-path / abstention supervision,
-4. counterfactual evaluation,
-5. multi-seed and entity-disjoint splits,
-6. DPO / IPO preference optimization,
-7. mixture and confidence-based mitigation baselines,
-8. adapter interpolation, and
-9. strong-model zero-shot checks.
+The progression includes vanilla SFT, distractor-aware SFT, no-path supervision, DPO / IPO, mixture and confidence baselines, adapter interpolation, and strong-model sanity checks.
 
-This is an exploratory research sandbox, not a claim that the benchmark itself represents the full complexity of biomedical or clinical reasoning.
+This is an exploratory machine-learning testbed, not a claim that the benchmark captures the full complexity of biomedical or clinical reasoning.
 
 ## Stack
 
@@ -76,23 +73,23 @@ Install the common dependencies with:
 pip install -r requirements.txt
 ```
 
-Some later notebooks require newer model-specific `transformers` versions or additional lightweight packages; those notebooks document their environment assumptions locally.
+Some later notebooks require newer model-specific `transformers` versions or additional lightweight packages; environment assumptions are documented in the relevant notebooks.
 
 ## Credentials and model cache
 
-Do not hard-code Hugging Face tokens in notebooks. A local `.env` file can be used when authentication is required:
+Do not hard-code Hugging Face tokens in notebooks. When authentication is needed, create a local `.env` file from the example:
 
 ```bash
 cp .env.example .env
 ```
 
-The repository ignores `.env`, Hugging Face caches, downloaded CTD data, and local experiment artifacts that should not be committed.
+The repository ignores `.env`, Hugging Face caches, downloaded CTD data, model checkpoints, and other local experiment artifacts.
 
 ## Running the notebooks
 
-Most early experiments are designed for Google Colab or a single-GPU environment. Larger-model notebooks may require substantially more VRAM and are intended for HPC / A100-class hardware.
+Early experiments are designed for Google Colab or a single-GPU environment. Larger-model notebooks may require substantially more VRAM and are intended for HPC / A100-class hardware.
 
-Paths in environment-specific notebooks are examples; adjust `ROOT`, cache directories, and output directories for your system.
+Environment-specific paths are examples; adjust `ROOT`, cache directories, and output directories for your system.
 
 ## Repository layout
 
@@ -107,8 +104,10 @@ llm-tuning-playground/
 
 ## Notes on reproducibility
 
-These notebooks are research prototypes rather than a versioned software package. Model APIs and TRL/Transformers interfaces evolve quickly, so exact reproduction may require matching the package versions used by an individual notebook. Where an implementation issue was found (for example, a prompt-completion token-boundary problem in preference tuning), corrected experiments are kept explicitly rather than silently overwriting the experimental history.
+These notebooks are research prototypes rather than a versioned software package. Model APIs and TRL/Transformers interfaces evolve quickly, so exact reproduction may require matching the package versions used by an individual notebook.
+
+Where an implementation issue was found—for example, a prompt-completion token-boundary problem in preference tuning—corrected experiments are kept explicitly rather than silently overwriting the experimental history.
 
 ## Disclaimer
 
-This repository contains experimental research code for LLM tuning and evaluation. Biomedical tasks are used as controlled machine-learning testbeds and are **not** intended for clinical decision-making.
+This repository contains experimental research code for LLM post-training and evaluation. Biomedical tasks are used as controlled machine-learning testbeds and are **not** intended for clinical decision-making.
