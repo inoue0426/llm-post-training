@@ -9,3 +9,13 @@ Qwen/Qwen3.8-27B,ChemicalID,1,0,6,C022838,10144,MESH:D054990,nickel chloride,FAM
 Qwen/Qwen3.8-27B,ChemicalID,1,0,7,C078485,7139,MESH:D006333,pelargonidin-3-glucoside,TNNT2,Heart Failure,Heart Failure,1,correct,0,1
 Qwen/Qwen3.8-27B,ChemicalID,1,0,8,D006923,7157,MESH:D015451,Hymecromone,TP53,"Leukemia, Lymphocytic, Chronic, B-Cell","Leukemia, Lymphocytic, Chronic, B-Cell",1,correct,0,1
 Qwen/Qwen3.8-27B,ChemicalID,1,0,9,C036567,348,MESH:D009765,perfluorodecanoic acid,APOE,Obesity,Obesity,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,0,10,D005466,7124,MESH:D066126,Fluorocarbons,TNF,Cardiotoxicity,Cardiotoxicity,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,0,11,C016811,213,MESH:D003928,tyloxapol,ALB,Diabetic Nephropathies,Diabetic Nephropathies,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,0,12,C018381,4353,MESH:D003921,salvin,MPO,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,0,13,C005499,2566,MESH:D019969,honokiol,GABRG2,Amphetamine-Related Disorders,Amphetamine-Related Disorders,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,0,14,C061132,7124,MESH:D017240,diphenyldiselenide,TNF,Mitochondrial Myopathies,Mitochondrial Myopathies,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,0,15,C030935,3575,MESH:D008106,benz(a)anthracene,IL7R,"Liver Cirrhosis, Experimental","Liver Cirrhosis, Experimental",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,0,16,C020758,348,MESH:D003327,indium trichloride,APOE,Coronary Disease,Coronary Disease,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,0,17,C025643,4353,MESH:D012771,vinclozolin,MPO,"Shock, Hemorrhagic","Shock, Hemorrhagic",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,0,18,D001564,79822,MESH:D004715,Benzo(a)pyrene,ARHGAP28,Endometriosis,Endometriosis,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,0,19,D000638,581,MESH:D011471,Amiodarone,BAX,Prostatic Neoplasms,Prostatic Neoplasms,1,correct,0,1
