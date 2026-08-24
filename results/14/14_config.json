@@ -1,0 +1,16 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "splits": [
+    "ChemicalID",
+    "GeneID",
+    "DiseaseID"
+  ],
+  "n_train": 1500,
+  "n_eval": 100,
+  "max_steps": 80
+}
