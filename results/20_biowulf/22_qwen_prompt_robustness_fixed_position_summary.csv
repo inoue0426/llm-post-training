@@ -1,0 +1,13 @@
+prompt_variant,k,accuracy,n,false_abstention_rate,distractor_answer_rate,other_wrong_rate
+A_original,0,0.94,50,0.06,0.0,0.0
+A_original,1,0.44,50,0.56,0.0,0.0
+A_original,5,0.32,50,0.68,0.0,0.0
+A_original,20,0.58,50,0.42,0.0,0.0
+B_exact_lookup,0,1.0,50,0.0,0.0,0.0
+B_exact_lookup,1,1.0,50,0.0,0.0,0.0
+B_exact_lookup,5,1.0,50,0.0,0.0,0.0
+B_exact_lookup,20,1.0,50,0.0,0.0,0.0
+C_algorithmic,0,1.0,50,0.0,0.0,0.0
+C_algorithmic,1,1.0,50,0.0,0.0,0.0
+C_algorithmic,5,1.0,50,0.0,0.0,0.0
+C_algorithmic,20,1.0,50,0.0,0.0,0.0

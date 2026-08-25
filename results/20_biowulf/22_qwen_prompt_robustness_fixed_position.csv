@@ -1,0 +1,601 @@
+model,split,seed,prompt_variant,k,example_idx,ChemicalID,GeneID,DiseaseID,ChemicalName,GeneSymbol,target,prediction,correct,error_type,true_edge_position,n_edges
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,0,C025643,54453,MESH:C567770,vinclozolin,RIN2,"Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis","Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,1,D004997,3479,MESH:D011471,Ethinyl Estradiol,IGF1,Prostatic Neoplasms,Prostatic Neoplasms,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,2,C101278,3553,MESH:D006333,decursin,IL1B,Heart Failure,Heart Failure,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,3,C006253,10269,MESH:D005923,pirinixic acid,ZMPSTE24,"Glomerulosclerosis, Focal Segmental","Glomerulosclerosis, Focal Segmental",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,4,D015056,1543,MESH:D007680,1-Methyl-3-isobutylxanthine,CYP1A1,Kidney Neoplasms,Kidney Neoplasms,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,5,D008274,3569,MESH:D017202,Magnesium,IL6,Myocardial Ischemia,Myocardial Ischemia,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,6,C022838,10144,MESH:D054990,nickel chloride,FAM13A,Idiopathic Pulmonary Fibrosis,Idiopathic Pulmonary Fibrosis,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,7,C078485,7139,MESH:D006333,pelargonidin-3-glucoside,TNNT2,Heart Failure,Heart Failure,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,8,D006923,7157,MESH:D015451,Hymecromone,TP53,"Leukemia, Lymphocytic, Chronic, B-Cell","Leukemia, Lymphocytic, Chronic, B-Cell",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,9,C036567,348,MESH:D009765,perfluorodecanoic acid,APOE,Obesity,Obesity,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,10,D005466,7124,MESH:D066126,Fluorocarbons,TNF,Cardiotoxicity,Cardiotoxicity,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,11,C016811,213,MESH:D003928,tyloxapol,ALB,Diabetic Nephropathies,Diabetic Nephropathies,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,12,C018381,4353,MESH:D003921,salvin,MPO,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,13,C005499,2566,MESH:D019969,honokiol,GABRG2,Amphetamine-Related Disorders,Amphetamine-Related Disorders,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,14,C061132,7124,MESH:D017240,diphenyldiselenide,TNF,Mitochondrial Myopathies,Mitochondrial Myopathies,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,15,C030935,3575,MESH:D008106,benz(a)anthracene,IL7R,"Liver Cirrhosis, Experimental","Liver Cirrhosis, Experimental",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,16,C020758,348,MESH:D003327,indium trichloride,APOE,Coronary Disease,Coronary Disease,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,17,C025643,4353,MESH:D012771,vinclozolin,MPO,"Shock, Hemorrhagic","Shock, Hemorrhagic",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,18,D001564,79822,MESH:D004715,Benzo(a)pyrene,ARHGAP28,Endometriosis,Endometriosis,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,19,D000638,581,MESH:D011471,Amiodarone,BAX,Prostatic Neoplasms,Prostatic Neoplasms,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,20,D008701,94081,MESH:D004195,Methapyrilene,SFXN1,"Disease Models, Animal",No supported path.,0,false_abstention,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,21,C113580,815,MESH:D006527,U 0126,CAMK2A,Hepatolenticular Degeneration,Hepatolenticular Degeneration,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,22,D010126,4693,MESH:C537849,Ozone,NDP,Norrie disease,Norrie disease,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,23,C031280,3162,MESH:D001778,pyrazole,HMOX1,Blood Coagulation Disorders,Blood Coagulation Disorders,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,24,D003471,170302,MESH:C536300,Cuprizone,ARX,Partington X-linked mental retardation syndrome,Partington X-linked mental retardation syndrome,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,25,D013265,7124,MESH:D001929,Stigmasterol,TNF,Brain Edema,No supported path,0,false_abstention,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,26,D015112,7124,MESH:D056486,4-Nitroquinoline-1-oxide,TNF,Chemical and Drug Induced Liver Injury,Chemical and Drug Induced Liver Injury,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,27,D014635,2919,MESH:D016535,Valproic Acid,CXCL1,Bronchial Hyperreactivity,Bronchial Hyperreactivity,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,28,D008769,4790,MESH:D058186,Methylnitronitrosoguanidine,NFKB1,Acute Kidney Injury,Acute Kidney Injury,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,29,D001564,5902,MESH:D007680,Benzo(a)pyrene,RANBP1,Kidney Neoplasms,Kidney Neoplasms,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,30,D005947,462,MESH:D020152,Glucose,SERPINC1,Antithrombin III Deficiency,Antithrombin III Deficiency,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,31,C013015,213,MESH:D002318,hesperetin,ALB,Cardiovascular Diseases,Cardiovascular Diseases,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,32,C424802,581,MESH:D009203,atractylenolide III,BAX,Myocardial Infarction,Myocardial Infarction,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,33,D005632,4313,MESH:D001019,Fructose,MMP2,Aortic Rupture,Aortic Rupture,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,34,C118852,7124,MESH:D010146,"S,S'-1,4-phenylene-bis(1,2-ethanediyl)bis-isothiourea",TNF,Pain,Pain,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,35,C439829,760,MESH:C536058,"N-(3-chloro-7-indolyl)-1,4-benzenedisulphonamide",CA2,Osteopetrosis with renal tubular acidosis,Osteopetrosis with renal tubular acidosis,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,36,C569869,5925,MESH:D002277,"malondialdehyde-low density lipoprotein, human",RB1,Carcinoma,Carcinoma,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,37,D001397,207,MESH:D011125,Azoxymethane,AKT1,Adenomatous Polyposis Coli,Adenomatous Polyposis Coli,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,38,D000395,406928,MESH:D019970,"Air Pollutants, Occupational",MIR137,Cocaine-Related Disorders,No supported path.,0,false_abstention,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,39,D001564,4137,MESH:D012131,Benzo(a)pyrene,MAPT,Respiratory Insufficiency,Respiratory Insufficiency,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,40,C027820,4780,MESH:D000690,ligustilide,NFE2L2,Amyotrophic Lateral Sclerosis,Amyotrophic Lateral Sclerosis,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,41,D019284,4128,MESH:D004715,Thapsigargin,MAOA,Endometriosis,Endometriosis,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,42,C000588915,6615,MESH:D014517,WJ1398-1,SNAI1,Ureteral Obstruction,Ureteral Obstruction,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,43,D012265,3832,MESH:D006528,Ribonucleotides,KIF11,"Carcinoma, Hepatocellular","Carcinoma, Hepatocellular",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,44,C036423,2147,MESH:D013927,1-aminomethylphosphonic acid,F2,Thrombosis,Thrombosis,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,45,D004997,55294,MESH:D003528,Ethinyl Estradiol,FBXW7,"Carcinoma, Adenoid Cystic","Carcinoma, Adenoid Cystic",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,46,C521105,581,MESH:D003921,dimethoxycurcumin,BAX,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,47,C088860,8434,MESH:D008106,"4-((3-bromophenyl)amino)-6,7-dimethoxyquinazoline",RECK,"Liver Cirrhosis, Experimental","Liver Cirrhosis, Experimental",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,48,D008078,7124,MESH:D005234,"Cholesterol, LDL",TNF,Fatty Liver,Fatty Liver,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,0,49,D004958,8289,MESH:D016889,Estradiol,ARID1A,Endometrial Neoplasms,Endometrial Neoplasms,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,0,C025643,54453,MESH:C567770,vinclozolin,RIN2,"Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis","Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,1,D004997,3479,MESH:D011471,Ethinyl Estradiol,IGF1,Prostatic Neoplasms,Prostatic Neoplasms,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,2,C101278,3553,MESH:D006333,decursin,IL1B,Heart Failure,No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,3,C006253,10269,MESH:D005923,pirinixic acid,ZMPSTE24,"Glomerulosclerosis, Focal Segmental","Glomerulosclerosis, Focal Segmental",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,4,D015056,1543,MESH:D007680,1-Methyl-3-isobutylxanthine,CYP1A1,Kidney Neoplasms,Kidney Neoplasms,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,5,D008274,3569,MESH:D017202,Magnesium,IL6,Myocardial Ischemia,No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,6,C022838,10144,MESH:D054990,nickel chloride,FAM13A,Idiopathic Pulmonary Fibrosis,Idiopathic Pulmonary Fibrosis,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,7,C078485,7139,MESH:D006333,pelargonidin-3-glucoside,TNNT2,Heart Failure,No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,8,D006923,7157,MESH:D015451,Hymecromone,TP53,"Leukemia, Lymphocytic, Chronic, B-Cell",No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,9,C036567,348,MESH:D009765,perfluorodecanoic acid,APOE,Obesity,Obesity,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,10,D005466,7124,MESH:D066126,Fluorocarbons,TNF,Cardiotoxicity,Cardiotoxicity,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,11,C016811,213,MESH:D003928,tyloxapol,ALB,Diabetic Nephropathies,Diabetic Nephropathies,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,12,C018381,4353,MESH:D003921,salvin,MPO,"Diabetes Mellitus, Experimental",No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,13,C005499,2566,MESH:D019969,honokiol,GABRG2,Amphetamine-Related Disorders,No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,14,C061132,7124,MESH:D017240,diphenyldiselenide,TNF,Mitochondrial Myopathies,No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,15,C030935,3575,MESH:D008106,benz(a)anthracene,IL7R,"Liver Cirrhosis, Experimental",No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,16,C020758,348,MESH:D003327,indium trichloride,APOE,Coronary Disease,No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,17,C025643,4353,MESH:D012771,vinclozolin,MPO,"Shock, Hemorrhagic",No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,18,D001564,79822,MESH:D004715,Benzo(a)pyrene,ARHGAP28,Endometriosis,Endometriosis,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,19,D000638,581,MESH:D011471,Amiodarone,BAX,Prostatic Neoplasms,No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,20,D008701,94081,MESH:D004195,Methapyrilene,SFXN1,"Disease Models, Animal",No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,21,C113580,815,MESH:D006527,U 0126,CAMK2A,Hepatolenticular Degeneration,Hepatolenticular Degeneration,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,22,D010126,4693,MESH:C537849,Ozone,NDP,Norrie disease,Norrie disease,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,23,C031280,3162,MESH:D001778,pyrazole,HMOX1,Blood Coagulation Disorders,No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,24,D003471,170302,MESH:C536300,Cuprizone,ARX,Partington X-linked mental retardation syndrome,No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,25,D013265,7124,MESH:D001929,Stigmasterol,TNF,Brain Edema,No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,26,D015112,7124,MESH:D056486,4-Nitroquinoline-1-oxide,TNF,Chemical and Drug Induced Liver Injury,Chemical and Drug Induced Liver Injury,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,27,D014635,2919,MESH:D016535,Valproic Acid,CXCL1,Bronchial Hyperreactivity,No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,28,D008769,4790,MESH:D058186,Methylnitronitrosoguanidine,NFKB1,Acute Kidney Injury,No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,29,D001564,5902,MESH:D007680,Benzo(a)pyrene,RANBP1,Kidney Neoplasms,No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,30,D005947,462,MESH:D020152,Glucose,SERPINC1,Antithrombin III Deficiency,Antithrombin III Deficiency,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,31,C013015,213,MESH:D002318,hesperetin,ALB,Cardiovascular Diseases,No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,32,C424802,581,MESH:D009203,atractylenolide III,BAX,Myocardial Infarction,Myocardial Infarction,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,33,D005632,4313,MESH:D001019,Fructose,MMP2,Aortic Rupture,Aortic Rupture,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,34,C118852,7124,MESH:D010146,"S,S'-1,4-phenylene-bis(1,2-ethanediyl)bis-isothiourea",TNF,Pain,No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,35,C439829,760,MESH:C536058,"N-(3-chloro-7-indolyl)-1,4-benzenedisulphonamide",CA2,Osteopetrosis with renal tubular acidosis,Osteopetrosis with renal tubular acidosis,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,36,C569869,5925,MESH:D002277,"malondialdehyde-low density lipoprotein, human",RB1,Carcinoma,No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,37,D001397,207,MESH:D011125,Azoxymethane,AKT1,Adenomatous Polyposis Coli,No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,38,D000395,406928,MESH:D019970,"Air Pollutants, Occupational",MIR137,Cocaine-Related Disorders,No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,39,D001564,4137,MESH:D012131,Benzo(a)pyrene,MAPT,Respiratory Insufficiency,No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,40,C027820,4780,MESH:D000690,ligustilide,NFE2L2,Amyotrophic Lateral Sclerosis,Amyotrophic Lateral Sclerosis,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,41,D019284,4128,MESH:D004715,Thapsigargin,MAOA,Endometriosis,Endometriosis,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,42,C000588915,6615,MESH:D014517,WJ1398-1,SNAI1,Ureteral Obstruction,No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,43,D012265,3832,MESH:D006528,Ribonucleotides,KIF11,"Carcinoma, Hepatocellular",No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,44,C036423,2147,MESH:D013927,1-aminomethylphosphonic acid,F2,Thrombosis,Thrombosis,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,45,D004997,55294,MESH:D003528,Ethinyl Estradiol,FBXW7,"Carcinoma, Adenoid Cystic",No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,46,C521105,581,MESH:D003921,dimethoxycurcumin,BAX,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,47,C088860,8434,MESH:D008106,"4-((3-bromophenyl)amino)-6,7-dimethoxyquinazoline",RECK,"Liver Cirrhosis, Experimental",No supported path,0,false_abstention,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,48,D008078,7124,MESH:D005234,"Cholesterol, LDL",TNF,Fatty Liver,Fatty Liver,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,1,49,D004958,8289,MESH:D016889,Estradiol,ARID1A,Endometrial Neoplasms,Endometrial Neoplasms,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,0,C025643,54453,MESH:C567770,vinclozolin,RIN2,"Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis",No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,1,D004997,3479,MESH:D011471,Ethinyl Estradiol,IGF1,Prostatic Neoplasms,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,2,C101278,3553,MESH:D006333,decursin,IL1B,Heart Failure,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,3,C006253,10269,MESH:D005923,pirinixic acid,ZMPSTE24,"Glomerulosclerosis, Focal Segmental",No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,4,D015056,1543,MESH:D007680,1-Methyl-3-isobutylxanthine,CYP1A1,Kidney Neoplasms,Kidney Neoplasms,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,5,D008274,3569,MESH:D017202,Magnesium,IL6,Myocardial Ischemia,Myocardial Ischemia,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,6,C022838,10144,MESH:D054990,nickel chloride,FAM13A,Idiopathic Pulmonary Fibrosis,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,7,C078485,7139,MESH:D006333,pelargonidin-3-glucoside,TNNT2,Heart Failure,Heart Failure,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,8,D006923,7157,MESH:D015451,Hymecromone,TP53,"Leukemia, Lymphocytic, Chronic, B-Cell",No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,9,C036567,348,MESH:D009765,perfluorodecanoic acid,APOE,Obesity,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,10,D005466,7124,MESH:D066126,Fluorocarbons,TNF,Cardiotoxicity,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,11,C016811,213,MESH:D003928,tyloxapol,ALB,Diabetic Nephropathies,Diabetic Nephropathies,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,12,C018381,4353,MESH:D003921,salvin,MPO,"Diabetes Mellitus, Experimental",No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,13,C005499,2566,MESH:D019969,honokiol,GABRG2,Amphetamine-Related Disorders,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,14,C061132,7124,MESH:D017240,diphenyldiselenide,TNF,Mitochondrial Myopathies,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,15,C030935,3575,MESH:D008106,benz(a)anthracene,IL7R,"Liver Cirrhosis, Experimental",No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,16,C020758,348,MESH:D003327,indium trichloride,APOE,Coronary Disease,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,17,C025643,4353,MESH:D012771,vinclozolin,MPO,"Shock, Hemorrhagic",No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,18,D001564,79822,MESH:D004715,Benzo(a)pyrene,ARHGAP28,Endometriosis,Endometriosis,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,19,D000638,581,MESH:D011471,Amiodarone,BAX,Prostatic Neoplasms,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,20,D008701,94081,MESH:D004195,Methapyrilene,SFXN1,"Disease Models, Animal",No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,21,C113580,815,MESH:D006527,U 0126,CAMK2A,Hepatolenticular Degeneration,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,22,D010126,4693,MESH:C537849,Ozone,NDP,Norrie disease,Norrie disease,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,23,C031280,3162,MESH:D001778,pyrazole,HMOX1,Blood Coagulation Disorders,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,24,D003471,170302,MESH:C536300,Cuprizone,ARX,Partington X-linked mental retardation syndrome,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,25,D013265,7124,MESH:D001929,Stigmasterol,TNF,Brain Edema,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,26,D015112,7124,MESH:D056486,4-Nitroquinoline-1-oxide,TNF,Chemical and Drug Induced Liver Injury,Chemical and Drug Induced Liver Injury,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,27,D014635,2919,MESH:D016535,Valproic Acid,CXCL1,Bronchial Hyperreactivity,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,28,D008769,4790,MESH:D058186,Methylnitronitrosoguanidine,NFKB1,Acute Kidney Injury,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,29,D001564,5902,MESH:D007680,Benzo(a)pyrene,RANBP1,Kidney Neoplasms,Kidney Neoplasms,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,30,D005947,462,MESH:D020152,Glucose,SERPINC1,Antithrombin III Deficiency,Antithrombin III Deficiency,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,31,C013015,213,MESH:D002318,hesperetin,ALB,Cardiovascular Diseases,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,32,C424802,581,MESH:D009203,atractylenolide III,BAX,Myocardial Infarction,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,33,D005632,4313,MESH:D001019,Fructose,MMP2,Aortic Rupture,Aortic Rupture,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,34,C118852,7124,MESH:D010146,"S,S'-1,4-phenylene-bis(1,2-ethanediyl)bis-isothiourea",TNF,Pain,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,35,C439829,760,MESH:C536058,"N-(3-chloro-7-indolyl)-1,4-benzenedisulphonamide",CA2,Osteopetrosis with renal tubular acidosis,Osteopetrosis with renal tubular acidosis,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,36,C569869,5925,MESH:D002277,"malondialdehyde-low density lipoprotein, human",RB1,Carcinoma,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,37,D001397,207,MESH:D011125,Azoxymethane,AKT1,Adenomatous Polyposis Coli,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,38,D000395,406928,MESH:D019970,"Air Pollutants, Occupational",MIR137,Cocaine-Related Disorders,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,39,D001564,4137,MESH:D012131,Benzo(a)pyrene,MAPT,Respiratory Insufficiency,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,40,C027820,4780,MESH:D000690,ligustilide,NFE2L2,Amyotrophic Lateral Sclerosis,Amyotrophic Lateral Sclerosis,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,41,D019284,4128,MESH:D004715,Thapsigargin,MAOA,Endometriosis,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,42,C000588915,6615,MESH:D014517,WJ1398-1,SNAI1,Ureteral Obstruction,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,43,D012265,3832,MESH:D006528,Ribonucleotides,KIF11,"Carcinoma, Hepatocellular",No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,44,C036423,2147,MESH:D013927,1-aminomethylphosphonic acid,F2,Thrombosis,No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,45,D004997,55294,MESH:D003528,Ethinyl Estradiol,FBXW7,"Carcinoma, Adenoid Cystic","Carcinoma, Adenoid Cystic",1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,46,C521105,581,MESH:D003921,dimethoxycurcumin,BAX,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,47,C088860,8434,MESH:D008106,"4-((3-bromophenyl)amino)-6,7-dimethoxyquinazoline",RECK,"Liver Cirrhosis, Experimental",No supported path,0,false_abstention,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,48,D008078,7124,MESH:D005234,"Cholesterol, LDL",TNF,Fatty Liver,Fatty Liver,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,5,49,D004958,8289,MESH:D016889,Estradiol,ARID1A,Endometrial Neoplasms,Endometrial Neoplasms,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,0,C025643,54453,MESH:C567770,vinclozolin,RIN2,"Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis","Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,1,D004997,3479,MESH:D011471,Ethinyl Estradiol,IGF1,Prostatic Neoplasms,Prostatic Neoplasms,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,2,C101278,3553,MESH:D006333,decursin,IL1B,Heart Failure,Heart Failure,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,3,C006253,10269,MESH:D005923,pirinixic acid,ZMPSTE24,"Glomerulosclerosis, Focal Segmental",No supported path,0,false_abstention,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,4,D015056,1543,MESH:D007680,1-Methyl-3-isobutylxanthine,CYP1A1,Kidney Neoplasms,Kidney Neoplasms,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,5,D008274,3569,MESH:D017202,Magnesium,IL6,Myocardial Ischemia,No supported path,0,false_abstention,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,6,C022838,10144,MESH:D054990,nickel chloride,FAM13A,Idiopathic Pulmonary Fibrosis,No supported path.,0,false_abstention,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,7,C078485,7139,MESH:D006333,pelargonidin-3-glucoside,TNNT2,Heart Failure,Heart Failure,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,8,D006923,7157,MESH:D015451,Hymecromone,TP53,"Leukemia, Lymphocytic, Chronic, B-Cell","Leukemia, Lymphocytic, Chronic, B-Cell",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,9,C036567,348,MESH:D009765,perfluorodecanoic acid,APOE,Obesity,Obesity,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,10,D005466,7124,MESH:D066126,Fluorocarbons,TNF,Cardiotoxicity,Cardiotoxicity,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,11,C016811,213,MESH:D003928,tyloxapol,ALB,Diabetic Nephropathies,Diabetic Nephropathies,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,12,C018381,4353,MESH:D003921,salvin,MPO,"Diabetes Mellitus, Experimental",No supported path.,0,false_abstention,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,13,C005499,2566,MESH:D019969,honokiol,GABRG2,Amphetamine-Related Disorders,Amphetamine-Related Disorders,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,14,C061132,7124,MESH:D017240,diphenyldiselenide,TNF,Mitochondrial Myopathies,Mitochondrial Myopathies,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,15,C030935,3575,MESH:D008106,benz(a)anthracene,IL7R,"Liver Cirrhosis, Experimental",No supported path,0,false_abstention,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,16,C020758,348,MESH:D003327,indium trichloride,APOE,Coronary Disease,No supported path.,0,false_abstention,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,17,C025643,4353,MESH:D012771,vinclozolin,MPO,"Shock, Hemorrhagic",No supported path.,0,false_abstention,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,18,D001564,79822,MESH:D004715,Benzo(a)pyrene,ARHGAP28,Endometriosis,No supported path,0,false_abstention,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,19,D000638,581,MESH:D011471,Amiodarone,BAX,Prostatic Neoplasms,Prostatic Neoplasms,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,20,D008701,94081,MESH:D004195,Methapyrilene,SFXN1,"Disease Models, Animal",No supported path,0,false_abstention,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,21,C113580,815,MESH:D006527,U 0126,CAMK2A,Hepatolenticular Degeneration,No supported path,0,false_abstention,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,22,D010126,4693,MESH:C537849,Ozone,NDP,Norrie disease,Norrie disease,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,23,C031280,3162,MESH:D001778,pyrazole,HMOX1,Blood Coagulation Disorders,No supported path,0,false_abstention,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,24,D003471,170302,MESH:C536300,Cuprizone,ARX,Partington X-linked mental retardation syndrome,No supported path.,0,false_abstention,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,25,D013265,7124,MESH:D001929,Stigmasterol,TNF,Brain Edema,No supported path,0,false_abstention,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,26,D015112,7124,MESH:D056486,4-Nitroquinoline-1-oxide,TNF,Chemical and Drug Induced Liver Injury,Chemical and Drug Induced Liver Injury,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,27,D014635,2919,MESH:D016535,Valproic Acid,CXCL1,Bronchial Hyperreactivity,Bronchial Hyperreactivity,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,28,D008769,4790,MESH:D058186,Methylnitronitrosoguanidine,NFKB1,Acute Kidney Injury,Acute Kidney Injury,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,29,D001564,5902,MESH:D007680,Benzo(a)pyrene,RANBP1,Kidney Neoplasms,Kidney Neoplasms,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,30,D005947,462,MESH:D020152,Glucose,SERPINC1,Antithrombin III Deficiency,Antithrombin III Deficiency,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,31,C013015,213,MESH:D002318,hesperetin,ALB,Cardiovascular Diseases,Cardiovascular Diseases,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,32,C424802,581,MESH:D009203,atractylenolide III,BAX,Myocardial Infarction,No supported path,0,false_abstention,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,33,D005632,4313,MESH:D001019,Fructose,MMP2,Aortic Rupture,Aortic Rupture,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,34,C118852,7124,MESH:D010146,"S,S'-1,4-phenylene-bis(1,2-ethanediyl)bis-isothiourea",TNF,Pain,No supported path.,0,false_abstention,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,35,C439829,760,MESH:C536058,"N-(3-chloro-7-indolyl)-1,4-benzenedisulphonamide",CA2,Osteopetrosis with renal tubular acidosis,Osteopetrosis with renal tubular acidosis,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,36,C569869,5925,MESH:D002277,"malondialdehyde-low density lipoprotein, human",RB1,Carcinoma,No supported path,0,false_abstention,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,37,D001397,207,MESH:D011125,Azoxymethane,AKT1,Adenomatous Polyposis Coli,No supported path,0,false_abstention,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,38,D000395,406928,MESH:D019970,"Air Pollutants, Occupational",MIR137,Cocaine-Related Disorders,No supported path,0,false_abstention,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,39,D001564,4137,MESH:D012131,Benzo(a)pyrene,MAPT,Respiratory Insufficiency,No supported path,0,false_abstention,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,40,C027820,4780,MESH:D000690,ligustilide,NFE2L2,Amyotrophic Lateral Sclerosis,Amyotrophic Lateral Sclerosis,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,41,D019284,4128,MESH:D004715,Thapsigargin,MAOA,Endometriosis,Endometriosis,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,42,C000588915,6615,MESH:D014517,WJ1398-1,SNAI1,Ureteral Obstruction,Ureteral Obstruction,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,43,D012265,3832,MESH:D006528,Ribonucleotides,KIF11,"Carcinoma, Hepatocellular","Carcinoma, Hepatocellular",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,44,C036423,2147,MESH:D013927,1-aminomethylphosphonic acid,F2,Thrombosis,Thrombosis,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,45,D004997,55294,MESH:D003528,Ethinyl Estradiol,FBXW7,"Carcinoma, Adenoid Cystic","Carcinoma, Adenoid Cystic",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,46,C521105,581,MESH:D003921,dimethoxycurcumin,BAX,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,47,C088860,8434,MESH:D008106,"4-((3-bromophenyl)amino)-6,7-dimethoxyquinazoline",RECK,"Liver Cirrhosis, Experimental",No supported path.,0,false_abstention,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,48,D008078,7124,MESH:D005234,"Cholesterol, LDL",TNF,Fatty Liver,No supported path,0,false_abstention,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,A_original,20,49,D004958,8289,MESH:D016889,Estradiol,ARID1A,Endometrial Neoplasms,Endometrial Neoplasms,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,0,C025643,54453,MESH:C567770,vinclozolin,RIN2,"Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis","Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,1,D004997,3479,MESH:D011471,Ethinyl Estradiol,IGF1,Prostatic Neoplasms,Prostatic Neoplasms,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,2,C101278,3553,MESH:D006333,decursin,IL1B,Heart Failure,Heart Failure,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,3,C006253,10269,MESH:D005923,pirinixic acid,ZMPSTE24,"Glomerulosclerosis, Focal Segmental","Glomerulosclerosis, Focal Segmental",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,4,D015056,1543,MESH:D007680,1-Methyl-3-isobutylxanthine,CYP1A1,Kidney Neoplasms,Kidney Neoplasms,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,5,D008274,3569,MESH:D017202,Magnesium,IL6,Myocardial Ischemia,Myocardial Ischemia,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,6,C022838,10144,MESH:D054990,nickel chloride,FAM13A,Idiopathic Pulmonary Fibrosis,Idiopathic Pulmonary Fibrosis,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,7,C078485,7139,MESH:D006333,pelargonidin-3-glucoside,TNNT2,Heart Failure,Heart Failure,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,8,D006923,7157,MESH:D015451,Hymecromone,TP53,"Leukemia, Lymphocytic, Chronic, B-Cell","Leukemia, Lymphocytic, Chronic, B-Cell",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,9,C036567,348,MESH:D009765,perfluorodecanoic acid,APOE,Obesity,Obesity,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,10,D005466,7124,MESH:D066126,Fluorocarbons,TNF,Cardiotoxicity,Cardiotoxicity,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,11,C016811,213,MESH:D003928,tyloxapol,ALB,Diabetic Nephropathies,Diabetic Nephropathies,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,12,C018381,4353,MESH:D003921,salvin,MPO,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,13,C005499,2566,MESH:D019969,honokiol,GABRG2,Amphetamine-Related Disorders,Amphetamine-Related Disorders,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,14,C061132,7124,MESH:D017240,diphenyldiselenide,TNF,Mitochondrial Myopathies,Mitochondrial Myopathies,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,15,C030935,3575,MESH:D008106,benz(a)anthracene,IL7R,"Liver Cirrhosis, Experimental","Liver Cirrhosis, Experimental",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,16,C020758,348,MESH:D003327,indium trichloride,APOE,Coronary Disease,Coronary Disease,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,17,C025643,4353,MESH:D012771,vinclozolin,MPO,"Shock, Hemorrhagic","Shock, Hemorrhagic",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,18,D001564,79822,MESH:D004715,Benzo(a)pyrene,ARHGAP28,Endometriosis,Endometriosis,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,19,D000638,581,MESH:D011471,Amiodarone,BAX,Prostatic Neoplasms,Prostatic Neoplasms,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,20,D008701,94081,MESH:D004195,Methapyrilene,SFXN1,"Disease Models, Animal","Disease Models, Animal",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,21,C113580,815,MESH:D006527,U 0126,CAMK2A,Hepatolenticular Degeneration,Hepatolenticular Degeneration,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,22,D010126,4693,MESH:C537849,Ozone,NDP,Norrie disease,Norrie disease,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,23,C031280,3162,MESH:D001778,pyrazole,HMOX1,Blood Coagulation Disorders,Blood Coagulation Disorders,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,24,D003471,170302,MESH:C536300,Cuprizone,ARX,Partington X-linked mental retardation syndrome,Partington X-linked mental retardation syndrome,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,25,D013265,7124,MESH:D001929,Stigmasterol,TNF,Brain Edema,Brain Edema,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,26,D015112,7124,MESH:D056486,4-Nitroquinoline-1-oxide,TNF,Chemical and Drug Induced Liver Injury,Chemical and Drug Induced Liver Injury,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,27,D014635,2919,MESH:D016535,Valproic Acid,CXCL1,Bronchial Hyperreactivity,Bronchial Hyperreactivity,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,28,D008769,4790,MESH:D058186,Methylnitronitrosoguanidine,NFKB1,Acute Kidney Injury,Acute Kidney Injury,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,29,D001564,5902,MESH:D007680,Benzo(a)pyrene,RANBP1,Kidney Neoplasms,Kidney Neoplasms,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,30,D005947,462,MESH:D020152,Glucose,SERPINC1,Antithrombin III Deficiency,Antithrombin III Deficiency,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,31,C013015,213,MESH:D002318,hesperetin,ALB,Cardiovascular Diseases,Cardiovascular Diseases,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,32,C424802,581,MESH:D009203,atractylenolide III,BAX,Myocardial Infarction,Myocardial Infarction,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,33,D005632,4313,MESH:D001019,Fructose,MMP2,Aortic Rupture,Aortic Rupture,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,34,C118852,7124,MESH:D010146,"S,S'-1,4-phenylene-bis(1,2-ethanediyl)bis-isothiourea",TNF,Pain,Pain,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,35,C439829,760,MESH:C536058,"N-(3-chloro-7-indolyl)-1,4-benzenedisulphonamide",CA2,Osteopetrosis with renal tubular acidosis,Osteopetrosis with renal tubular acidosis,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,36,C569869,5925,MESH:D002277,"malondialdehyde-low density lipoprotein, human",RB1,Carcinoma,Carcinoma,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,37,D001397,207,MESH:D011125,Azoxymethane,AKT1,Adenomatous Polyposis Coli,Adenomatous Polyposis Coli,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,38,D000395,406928,MESH:D019970,"Air Pollutants, Occupational",MIR137,Cocaine-Related Disorders,Cocaine-Related Disorders,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,39,D001564,4137,MESH:D012131,Benzo(a)pyrene,MAPT,Respiratory Insufficiency,Respiratory Insufficiency,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,40,C027820,4780,MESH:D000690,ligustilide,NFE2L2,Amyotrophic Lateral Sclerosis,Amyotrophic Lateral Sclerosis,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,41,D019284,4128,MESH:D004715,Thapsigargin,MAOA,Endometriosis,Endometriosis,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,42,C000588915,6615,MESH:D014517,WJ1398-1,SNAI1,Ureteral Obstruction,Ureteral Obstruction,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,43,D012265,3832,MESH:D006528,Ribonucleotides,KIF11,"Carcinoma, Hepatocellular","Carcinoma, Hepatocellular",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,44,C036423,2147,MESH:D013927,1-aminomethylphosphonic acid,F2,Thrombosis,Thrombosis,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,45,D004997,55294,MESH:D003528,Ethinyl Estradiol,FBXW7,"Carcinoma, Adenoid Cystic","Carcinoma, Adenoid Cystic",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,46,C521105,581,MESH:D003921,dimethoxycurcumin,BAX,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,47,C088860,8434,MESH:D008106,"4-((3-bromophenyl)amino)-6,7-dimethoxyquinazoline",RECK,"Liver Cirrhosis, Experimental","Liver Cirrhosis, Experimental",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,48,D008078,7124,MESH:D005234,"Cholesterol, LDL",TNF,Fatty Liver,Fatty Liver,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,0,49,D004958,8289,MESH:D016889,Estradiol,ARID1A,Endometrial Neoplasms,Endometrial Neoplasms,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,0,C025643,54453,MESH:C567770,vinclozolin,RIN2,"Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis","Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,1,D004997,3479,MESH:D011471,Ethinyl Estradiol,IGF1,Prostatic Neoplasms,Prostatic Neoplasms,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,2,C101278,3553,MESH:D006333,decursin,IL1B,Heart Failure,Heart Failure,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,3,C006253,10269,MESH:D005923,pirinixic acid,ZMPSTE24,"Glomerulosclerosis, Focal Segmental","Glomerulosclerosis, Focal Segmental",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,4,D015056,1543,MESH:D007680,1-Methyl-3-isobutylxanthine,CYP1A1,Kidney Neoplasms,Kidney Neoplasms,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,5,D008274,3569,MESH:D017202,Magnesium,IL6,Myocardial Ischemia,Myocardial Ischemia,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,6,C022838,10144,MESH:D054990,nickel chloride,FAM13A,Idiopathic Pulmonary Fibrosis,Idiopathic Pulmonary Fibrosis,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,7,C078485,7139,MESH:D006333,pelargonidin-3-glucoside,TNNT2,Heart Failure,Heart Failure,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,8,D006923,7157,MESH:D015451,Hymecromone,TP53,"Leukemia, Lymphocytic, Chronic, B-Cell","Leukemia, Lymphocytic, Chronic, B-Cell",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,9,C036567,348,MESH:D009765,perfluorodecanoic acid,APOE,Obesity,Obesity,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,10,D005466,7124,MESH:D066126,Fluorocarbons,TNF,Cardiotoxicity,Cardiotoxicity,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,11,C016811,213,MESH:D003928,tyloxapol,ALB,Diabetic Nephropathies,Diabetic Nephropathies,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,12,C018381,4353,MESH:D003921,salvin,MPO,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,13,C005499,2566,MESH:D019969,honokiol,GABRG2,Amphetamine-Related Disorders,Amphetamine-Related Disorders,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,14,C061132,7124,MESH:D017240,diphenyldiselenide,TNF,Mitochondrial Myopathies,Mitochondrial Myopathies,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,15,C030935,3575,MESH:D008106,benz(a)anthracene,IL7R,"Liver Cirrhosis, Experimental","Liver Cirrhosis, Experimental",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,16,C020758,348,MESH:D003327,indium trichloride,APOE,Coronary Disease,Coronary Disease,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,17,C025643,4353,MESH:D012771,vinclozolin,MPO,"Shock, Hemorrhagic","Shock, Hemorrhagic",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,18,D001564,79822,MESH:D004715,Benzo(a)pyrene,ARHGAP28,Endometriosis,Endometriosis,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,19,D000638,581,MESH:D011471,Amiodarone,BAX,Prostatic Neoplasms,Prostatic Neoplasms,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,20,D008701,94081,MESH:D004195,Methapyrilene,SFXN1,"Disease Models, Animal","Disease Models, Animal",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,21,C113580,815,MESH:D006527,U 0126,CAMK2A,Hepatolenticular Degeneration,Hepatolenticular Degeneration,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,22,D010126,4693,MESH:C537849,Ozone,NDP,Norrie disease,Norrie disease,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,23,C031280,3162,MESH:D001778,pyrazole,HMOX1,Blood Coagulation Disorders,Blood Coagulation Disorders,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,24,D003471,170302,MESH:C536300,Cuprizone,ARX,Partington X-linked mental retardation syndrome,Partington X-linked mental retardation syndrome,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,25,D013265,7124,MESH:D001929,Stigmasterol,TNF,Brain Edema,Brain Edema,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,26,D015112,7124,MESH:D056486,4-Nitroquinoline-1-oxide,TNF,Chemical and Drug Induced Liver Injury,Chemical and Drug Induced Liver Injury,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,27,D014635,2919,MESH:D016535,Valproic Acid,CXCL1,Bronchial Hyperreactivity,Bronchial Hyperreactivity,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,28,D008769,4790,MESH:D058186,Methylnitronitrosoguanidine,NFKB1,Acute Kidney Injury,Acute Kidney Injury,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,29,D001564,5902,MESH:D007680,Benzo(a)pyrene,RANBP1,Kidney Neoplasms,Kidney Neoplasms,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,30,D005947,462,MESH:D020152,Glucose,SERPINC1,Antithrombin III Deficiency,Antithrombin III Deficiency,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,31,C013015,213,MESH:D002318,hesperetin,ALB,Cardiovascular Diseases,Cardiovascular Diseases,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,32,C424802,581,MESH:D009203,atractylenolide III,BAX,Myocardial Infarction,Myocardial Infarction,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,33,D005632,4313,MESH:D001019,Fructose,MMP2,Aortic Rupture,Aortic Rupture,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,34,C118852,7124,MESH:D010146,"S,S'-1,4-phenylene-bis(1,2-ethanediyl)bis-isothiourea",TNF,Pain,Pain,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,35,C439829,760,MESH:C536058,"N-(3-chloro-7-indolyl)-1,4-benzenedisulphonamide",CA2,Osteopetrosis with renal tubular acidosis,Osteopetrosis with renal tubular acidosis,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,36,C569869,5925,MESH:D002277,"malondialdehyde-low density lipoprotein, human",RB1,Carcinoma,Carcinoma,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,37,D001397,207,MESH:D011125,Azoxymethane,AKT1,Adenomatous Polyposis Coli,Adenomatous Polyposis Coli,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,38,D000395,406928,MESH:D019970,"Air Pollutants, Occupational",MIR137,Cocaine-Related Disorders,Cocaine-Related Disorders,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,39,D001564,4137,MESH:D012131,Benzo(a)pyrene,MAPT,Respiratory Insufficiency,Respiratory Insufficiency,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,40,C027820,4780,MESH:D000690,ligustilide,NFE2L2,Amyotrophic Lateral Sclerosis,Amyotrophic Lateral Sclerosis,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,41,D019284,4128,MESH:D004715,Thapsigargin,MAOA,Endometriosis,Endometriosis,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,42,C000588915,6615,MESH:D014517,WJ1398-1,SNAI1,Ureteral Obstruction,Ureteral Obstruction,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,43,D012265,3832,MESH:D006528,Ribonucleotides,KIF11,"Carcinoma, Hepatocellular","Carcinoma, Hepatocellular",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,44,C036423,2147,MESH:D013927,1-aminomethylphosphonic acid,F2,Thrombosis,Thrombosis,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,45,D004997,55294,MESH:D003528,Ethinyl Estradiol,FBXW7,"Carcinoma, Adenoid Cystic","Carcinoma, Adenoid Cystic",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,46,C521105,581,MESH:D003921,dimethoxycurcumin,BAX,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,47,C088860,8434,MESH:D008106,"4-((3-bromophenyl)amino)-6,7-dimethoxyquinazoline",RECK,"Liver Cirrhosis, Experimental","Liver Cirrhosis, Experimental",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,48,D008078,7124,MESH:D005234,"Cholesterol, LDL",TNF,Fatty Liver,Fatty Liver,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,1,49,D004958,8289,MESH:D016889,Estradiol,ARID1A,Endometrial Neoplasms,Endometrial Neoplasms,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,0,C025643,54453,MESH:C567770,vinclozolin,RIN2,"Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis","Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis",1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,1,D004997,3479,MESH:D011471,Ethinyl Estradiol,IGF1,Prostatic Neoplasms,Prostatic Neoplasms,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,2,C101278,3553,MESH:D006333,decursin,IL1B,Heart Failure,Heart Failure,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,3,C006253,10269,MESH:D005923,pirinixic acid,ZMPSTE24,"Glomerulosclerosis, Focal Segmental","Glomerulosclerosis, Focal Segmental",1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,4,D015056,1543,MESH:D007680,1-Methyl-3-isobutylxanthine,CYP1A1,Kidney Neoplasms,Kidney Neoplasms,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,5,D008274,3569,MESH:D017202,Magnesium,IL6,Myocardial Ischemia,Myocardial Ischemia,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,6,C022838,10144,MESH:D054990,nickel chloride,FAM13A,Idiopathic Pulmonary Fibrosis,Idiopathic Pulmonary Fibrosis,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,7,C078485,7139,MESH:D006333,pelargonidin-3-glucoside,TNNT2,Heart Failure,Heart Failure,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,8,D006923,7157,MESH:D015451,Hymecromone,TP53,"Leukemia, Lymphocytic, Chronic, B-Cell","Leukemia, Lymphocytic, Chronic, B-Cell",1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,9,C036567,348,MESH:D009765,perfluorodecanoic acid,APOE,Obesity,Obesity,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,10,D005466,7124,MESH:D066126,Fluorocarbons,TNF,Cardiotoxicity,Cardiotoxicity,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,11,C016811,213,MESH:D003928,tyloxapol,ALB,Diabetic Nephropathies,Diabetic Nephropathies,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,12,C018381,4353,MESH:D003921,salvin,MPO,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,13,C005499,2566,MESH:D019969,honokiol,GABRG2,Amphetamine-Related Disorders,Amphetamine-Related Disorders,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,14,C061132,7124,MESH:D017240,diphenyldiselenide,TNF,Mitochondrial Myopathies,Mitochondrial Myopathies,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,15,C030935,3575,MESH:D008106,benz(a)anthracene,IL7R,"Liver Cirrhosis, Experimental","Liver Cirrhosis, Experimental",1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,16,C020758,348,MESH:D003327,indium trichloride,APOE,Coronary Disease,Coronary Disease,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,17,C025643,4353,MESH:D012771,vinclozolin,MPO,"Shock, Hemorrhagic","Shock, Hemorrhagic",1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,18,D001564,79822,MESH:D004715,Benzo(a)pyrene,ARHGAP28,Endometriosis,Endometriosis,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,19,D000638,581,MESH:D011471,Amiodarone,BAX,Prostatic Neoplasms,Prostatic Neoplasms,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,20,D008701,94081,MESH:D004195,Methapyrilene,SFXN1,"Disease Models, Animal","Disease Models, Animal",1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,21,C113580,815,MESH:D006527,U 0126,CAMK2A,Hepatolenticular Degeneration,Hepatolenticular Degeneration,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,22,D010126,4693,MESH:C537849,Ozone,NDP,Norrie disease,Norrie disease,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,23,C031280,3162,MESH:D001778,pyrazole,HMOX1,Blood Coagulation Disorders,Blood Coagulation Disorders,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,24,D003471,170302,MESH:C536300,Cuprizone,ARX,Partington X-linked mental retardation syndrome,Partington X-linked mental retardation syndrome,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,25,D013265,7124,MESH:D001929,Stigmasterol,TNF,Brain Edema,Brain Edema,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,26,D015112,7124,MESH:D056486,4-Nitroquinoline-1-oxide,TNF,Chemical and Drug Induced Liver Injury,Chemical and Drug Induced Liver Injury,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,27,D014635,2919,MESH:D016535,Valproic Acid,CXCL1,Bronchial Hyperreactivity,Bronchial Hyperreactivity,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,28,D008769,4790,MESH:D058186,Methylnitronitrosoguanidine,NFKB1,Acute Kidney Injury,Acute Kidney Injury,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,29,D001564,5902,MESH:D007680,Benzo(a)pyrene,RANBP1,Kidney Neoplasms,Kidney Neoplasms,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,30,D005947,462,MESH:D020152,Glucose,SERPINC1,Antithrombin III Deficiency,Antithrombin III Deficiency,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,31,C013015,213,MESH:D002318,hesperetin,ALB,Cardiovascular Diseases,Cardiovascular Diseases,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,32,C424802,581,MESH:D009203,atractylenolide III,BAX,Myocardial Infarction,Myocardial Infarction,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,33,D005632,4313,MESH:D001019,Fructose,MMP2,Aortic Rupture,Aortic Rupture,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,34,C118852,7124,MESH:D010146,"S,S'-1,4-phenylene-bis(1,2-ethanediyl)bis-isothiourea",TNF,Pain,Pain,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,35,C439829,760,MESH:C536058,"N-(3-chloro-7-indolyl)-1,4-benzenedisulphonamide",CA2,Osteopetrosis with renal tubular acidosis,Osteopetrosis with renal tubular acidosis,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,36,C569869,5925,MESH:D002277,"malondialdehyde-low density lipoprotein, human",RB1,Carcinoma,Carcinoma,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,37,D001397,207,MESH:D011125,Azoxymethane,AKT1,Adenomatous Polyposis Coli,Adenomatous Polyposis Coli,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,38,D000395,406928,MESH:D019970,"Air Pollutants, Occupational",MIR137,Cocaine-Related Disorders,Cocaine-Related Disorders,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,39,D001564,4137,MESH:D012131,Benzo(a)pyrene,MAPT,Respiratory Insufficiency,Respiratory Insufficiency,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,40,C027820,4780,MESH:D000690,ligustilide,NFE2L2,Amyotrophic Lateral Sclerosis,Amyotrophic Lateral Sclerosis,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,41,D019284,4128,MESH:D004715,Thapsigargin,MAOA,Endometriosis,Endometriosis,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,42,C000588915,6615,MESH:D014517,WJ1398-1,SNAI1,Ureteral Obstruction,Ureteral Obstruction,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,43,D012265,3832,MESH:D006528,Ribonucleotides,KIF11,"Carcinoma, Hepatocellular","Carcinoma, Hepatocellular",1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,44,C036423,2147,MESH:D013927,1-aminomethylphosphonic acid,F2,Thrombosis,Thrombosis,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,45,D004997,55294,MESH:D003528,Ethinyl Estradiol,FBXW7,"Carcinoma, Adenoid Cystic","Carcinoma, Adenoid Cystic",1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,46,C521105,581,MESH:D003921,dimethoxycurcumin,BAX,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,47,C088860,8434,MESH:D008106,"4-((3-bromophenyl)amino)-6,7-dimethoxyquinazoline",RECK,"Liver Cirrhosis, Experimental","Liver Cirrhosis, Experimental",1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,48,D008078,7124,MESH:D005234,"Cholesterol, LDL",TNF,Fatty Liver,Fatty Liver,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,5,49,D004958,8289,MESH:D016889,Estradiol,ARID1A,Endometrial Neoplasms,Endometrial Neoplasms,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,0,C025643,54453,MESH:C567770,vinclozolin,RIN2,"Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis","Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,1,D004997,3479,MESH:D011471,Ethinyl Estradiol,IGF1,Prostatic Neoplasms,Prostatic Neoplasms,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,2,C101278,3553,MESH:D006333,decursin,IL1B,Heart Failure,Heart Failure,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,3,C006253,10269,MESH:D005923,pirinixic acid,ZMPSTE24,"Glomerulosclerosis, Focal Segmental","Glomerulosclerosis, Focal Segmental",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,4,D015056,1543,MESH:D007680,1-Methyl-3-isobutylxanthine,CYP1A1,Kidney Neoplasms,Kidney Neoplasms,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,5,D008274,3569,MESH:D017202,Magnesium,IL6,Myocardial Ischemia,Myocardial Ischemia,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,6,C022838,10144,MESH:D054990,nickel chloride,FAM13A,Idiopathic Pulmonary Fibrosis,Idiopathic Pulmonary Fibrosis,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,7,C078485,7139,MESH:D006333,pelargonidin-3-glucoside,TNNT2,Heart Failure,Heart Failure,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,8,D006923,7157,MESH:D015451,Hymecromone,TP53,"Leukemia, Lymphocytic, Chronic, B-Cell","Leukemia, Lymphocytic, Chronic, B-Cell",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,9,C036567,348,MESH:D009765,perfluorodecanoic acid,APOE,Obesity,Obesity,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,10,D005466,7124,MESH:D066126,Fluorocarbons,TNF,Cardiotoxicity,Cardiotoxicity,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,11,C016811,213,MESH:D003928,tyloxapol,ALB,Diabetic Nephropathies,Diabetic Nephropathies,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,12,C018381,4353,MESH:D003921,salvin,MPO,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,13,C005499,2566,MESH:D019969,honokiol,GABRG2,Amphetamine-Related Disorders,Amphetamine-Related Disorders,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,14,C061132,7124,MESH:D017240,diphenyldiselenide,TNF,Mitochondrial Myopathies,Mitochondrial Myopathies,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,15,C030935,3575,MESH:D008106,benz(a)anthracene,IL7R,"Liver Cirrhosis, Experimental","Liver Cirrhosis, Experimental",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,16,C020758,348,MESH:D003327,indium trichloride,APOE,Coronary Disease,Coronary Disease,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,17,C025643,4353,MESH:D012771,vinclozolin,MPO,"Shock, Hemorrhagic","Shock, Hemorrhagic",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,18,D001564,79822,MESH:D004715,Benzo(a)pyrene,ARHGAP28,Endometriosis,Endometriosis,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,19,D000638,581,MESH:D011471,Amiodarone,BAX,Prostatic Neoplasms,Prostatic Neoplasms,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,20,D008701,94081,MESH:D004195,Methapyrilene,SFXN1,"Disease Models, Animal","Disease Models, Animal",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,21,C113580,815,MESH:D006527,U 0126,CAMK2A,Hepatolenticular Degeneration,Hepatolenticular Degeneration,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,22,D010126,4693,MESH:C537849,Ozone,NDP,Norrie disease,Norrie disease,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,23,C031280,3162,MESH:D001778,pyrazole,HMOX1,Blood Coagulation Disorders,Blood Coagulation Disorders,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,24,D003471,170302,MESH:C536300,Cuprizone,ARX,Partington X-linked mental retardation syndrome,Partington X-linked mental retardation syndrome,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,25,D013265,7124,MESH:D001929,Stigmasterol,TNF,Brain Edema,Brain Edema,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,26,D015112,7124,MESH:D056486,4-Nitroquinoline-1-oxide,TNF,Chemical and Drug Induced Liver Injury,Chemical and Drug Induced Liver Injury,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,27,D014635,2919,MESH:D016535,Valproic Acid,CXCL1,Bronchial Hyperreactivity,Bronchial Hyperreactivity,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,28,D008769,4790,MESH:D058186,Methylnitronitrosoguanidine,NFKB1,Acute Kidney Injury,Acute Kidney Injury,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,29,D001564,5902,MESH:D007680,Benzo(a)pyrene,RANBP1,Kidney Neoplasms,Kidney Neoplasms,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,30,D005947,462,MESH:D020152,Glucose,SERPINC1,Antithrombin III Deficiency,Antithrombin III Deficiency,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,31,C013015,213,MESH:D002318,hesperetin,ALB,Cardiovascular Diseases,Cardiovascular Diseases,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,32,C424802,581,MESH:D009203,atractylenolide III,BAX,Myocardial Infarction,Myocardial Infarction,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,33,D005632,4313,MESH:D001019,Fructose,MMP2,Aortic Rupture,Aortic Rupture,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,34,C118852,7124,MESH:D010146,"S,S'-1,4-phenylene-bis(1,2-ethanediyl)bis-isothiourea",TNF,Pain,Pain,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,35,C439829,760,MESH:C536058,"N-(3-chloro-7-indolyl)-1,4-benzenedisulphonamide",CA2,Osteopetrosis with renal tubular acidosis,Osteopetrosis with renal tubular acidosis,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,36,C569869,5925,MESH:D002277,"malondialdehyde-low density lipoprotein, human",RB1,Carcinoma,Carcinoma,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,37,D001397,207,MESH:D011125,Azoxymethane,AKT1,Adenomatous Polyposis Coli,Adenomatous Polyposis Coli,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,38,D000395,406928,MESH:D019970,"Air Pollutants, Occupational",MIR137,Cocaine-Related Disorders,Cocaine-Related Disorders,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,39,D001564,4137,MESH:D012131,Benzo(a)pyrene,MAPT,Respiratory Insufficiency,Respiratory Insufficiency,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,40,C027820,4780,MESH:D000690,ligustilide,NFE2L2,Amyotrophic Lateral Sclerosis,Amyotrophic Lateral Sclerosis,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,41,D019284,4128,MESH:D004715,Thapsigargin,MAOA,Endometriosis,Endometriosis,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,42,C000588915,6615,MESH:D014517,WJ1398-1,SNAI1,Ureteral Obstruction,Ureteral Obstruction,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,43,D012265,3832,MESH:D006528,Ribonucleotides,KIF11,"Carcinoma, Hepatocellular","Carcinoma, Hepatocellular",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,44,C036423,2147,MESH:D013927,1-aminomethylphosphonic acid,F2,Thrombosis,Thrombosis,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,45,D004997,55294,MESH:D003528,Ethinyl Estradiol,FBXW7,"Carcinoma, Adenoid Cystic","Carcinoma, Adenoid Cystic",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,46,C521105,581,MESH:D003921,dimethoxycurcumin,BAX,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,47,C088860,8434,MESH:D008106,"4-((3-bromophenyl)amino)-6,7-dimethoxyquinazoline",RECK,"Liver Cirrhosis, Experimental","Liver Cirrhosis, Experimental",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,48,D008078,7124,MESH:D005234,"Cholesterol, LDL",TNF,Fatty Liver,Fatty Liver,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,B_exact_lookup,20,49,D004958,8289,MESH:D016889,Estradiol,ARID1A,Endometrial Neoplasms,Endometrial Neoplasms,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,0,C025643,54453,MESH:C567770,vinclozolin,RIN2,"Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis","Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,1,D004997,3479,MESH:D011471,Ethinyl Estradiol,IGF1,Prostatic Neoplasms,Prostatic Neoplasms,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,2,C101278,3553,MESH:D006333,decursin,IL1B,Heart Failure,Heart Failure,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,3,C006253,10269,MESH:D005923,pirinixic acid,ZMPSTE24,"Glomerulosclerosis, Focal Segmental","Glomerulosclerosis, Focal Segmental",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,4,D015056,1543,MESH:D007680,1-Methyl-3-isobutylxanthine,CYP1A1,Kidney Neoplasms,Kidney Neoplasms,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,5,D008274,3569,MESH:D017202,Magnesium,IL6,Myocardial Ischemia,Myocardial Ischemia,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,6,C022838,10144,MESH:D054990,nickel chloride,FAM13A,Idiopathic Pulmonary Fibrosis,Idiopathic Pulmonary Fibrosis,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,7,C078485,7139,MESH:D006333,pelargonidin-3-glucoside,TNNT2,Heart Failure,Heart Failure,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,8,D006923,7157,MESH:D015451,Hymecromone,TP53,"Leukemia, Lymphocytic, Chronic, B-Cell","Leukemia, Lymphocytic, Chronic, B-Cell",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,9,C036567,348,MESH:D009765,perfluorodecanoic acid,APOE,Obesity,Obesity,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,10,D005466,7124,MESH:D066126,Fluorocarbons,TNF,Cardiotoxicity,Cardiotoxicity,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,11,C016811,213,MESH:D003928,tyloxapol,ALB,Diabetic Nephropathies,Diabetic Nephropathies,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,12,C018381,4353,MESH:D003921,salvin,MPO,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,13,C005499,2566,MESH:D019969,honokiol,GABRG2,Amphetamine-Related Disorders,Amphetamine-Related Disorders,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,14,C061132,7124,MESH:D017240,diphenyldiselenide,TNF,Mitochondrial Myopathies,Mitochondrial Myopathies,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,15,C030935,3575,MESH:D008106,benz(a)anthracene,IL7R,"Liver Cirrhosis, Experimental","Liver Cirrhosis, Experimental",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,16,C020758,348,MESH:D003327,indium trichloride,APOE,Coronary Disease,Coronary Disease,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,17,C025643,4353,MESH:D012771,vinclozolin,MPO,"Shock, Hemorrhagic","Shock, Hemorrhagic",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,18,D001564,79822,MESH:D004715,Benzo(a)pyrene,ARHGAP28,Endometriosis,Endometriosis,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,19,D000638,581,MESH:D011471,Amiodarone,BAX,Prostatic Neoplasms,Prostatic Neoplasms,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,20,D008701,94081,MESH:D004195,Methapyrilene,SFXN1,"Disease Models, Animal","Disease Models, Animal",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,21,C113580,815,MESH:D006527,U 0126,CAMK2A,Hepatolenticular Degeneration,Hepatolenticular Degeneration,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,22,D010126,4693,MESH:C537849,Ozone,NDP,Norrie disease,Norrie disease,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,23,C031280,3162,MESH:D001778,pyrazole,HMOX1,Blood Coagulation Disorders,Blood Coagulation Disorders,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,24,D003471,170302,MESH:C536300,Cuprizone,ARX,Partington X-linked mental retardation syndrome,Partington X-linked mental retardation syndrome,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,25,D013265,7124,MESH:D001929,Stigmasterol,TNF,Brain Edema,Brain Edema,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,26,D015112,7124,MESH:D056486,4-Nitroquinoline-1-oxide,TNF,Chemical and Drug Induced Liver Injury,Chemical and Drug Induced Liver Injury,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,27,D014635,2919,MESH:D016535,Valproic Acid,CXCL1,Bronchial Hyperreactivity,Bronchial Hyperreactivity,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,28,D008769,4790,MESH:D058186,Methylnitronitrosoguanidine,NFKB1,Acute Kidney Injury,Acute Kidney Injury,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,29,D001564,5902,MESH:D007680,Benzo(a)pyrene,RANBP1,Kidney Neoplasms,Kidney Neoplasms,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,30,D005947,462,MESH:D020152,Glucose,SERPINC1,Antithrombin III Deficiency,Antithrombin III Deficiency,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,31,C013015,213,MESH:D002318,hesperetin,ALB,Cardiovascular Diseases,Cardiovascular Diseases,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,32,C424802,581,MESH:D009203,atractylenolide III,BAX,Myocardial Infarction,Myocardial Infarction,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,33,D005632,4313,MESH:D001019,Fructose,MMP2,Aortic Rupture,Aortic Rupture,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,34,C118852,7124,MESH:D010146,"S,S'-1,4-phenylene-bis(1,2-ethanediyl)bis-isothiourea",TNF,Pain,Pain,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,35,C439829,760,MESH:C536058,"N-(3-chloro-7-indolyl)-1,4-benzenedisulphonamide",CA2,Osteopetrosis with renal tubular acidosis,Osteopetrosis with renal tubular acidosis,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,36,C569869,5925,MESH:D002277,"malondialdehyde-low density lipoprotein, human",RB1,Carcinoma,Carcinoma,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,37,D001397,207,MESH:D011125,Azoxymethane,AKT1,Adenomatous Polyposis Coli,Adenomatous Polyposis Coli,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,38,D000395,406928,MESH:D019970,"Air Pollutants, Occupational",MIR137,Cocaine-Related Disorders,Cocaine-Related Disorders,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,39,D001564,4137,MESH:D012131,Benzo(a)pyrene,MAPT,Respiratory Insufficiency,Respiratory Insufficiency,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,40,C027820,4780,MESH:D000690,ligustilide,NFE2L2,Amyotrophic Lateral Sclerosis,Amyotrophic Lateral Sclerosis,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,41,D019284,4128,MESH:D004715,Thapsigargin,MAOA,Endometriosis,Endometriosis,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,42,C000588915,6615,MESH:D014517,WJ1398-1,SNAI1,Ureteral Obstruction,Ureteral Obstruction,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,43,D012265,3832,MESH:D006528,Ribonucleotides,KIF11,"Carcinoma, Hepatocellular","Carcinoma, Hepatocellular",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,44,C036423,2147,MESH:D013927,1-aminomethylphosphonic acid,F2,Thrombosis,Thrombosis,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,45,D004997,55294,MESH:D003528,Ethinyl Estradiol,FBXW7,"Carcinoma, Adenoid Cystic","Carcinoma, Adenoid Cystic",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,46,C521105,581,MESH:D003921,dimethoxycurcumin,BAX,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,47,C088860,8434,MESH:D008106,"4-((3-bromophenyl)amino)-6,7-dimethoxyquinazoline",RECK,"Liver Cirrhosis, Experimental","Liver Cirrhosis, Experimental",1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,48,D008078,7124,MESH:D005234,"Cholesterol, LDL",TNF,Fatty Liver,Fatty Liver,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,0,49,D004958,8289,MESH:D016889,Estradiol,ARID1A,Endometrial Neoplasms,Endometrial Neoplasms,1,correct,0,1
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,0,C025643,54453,MESH:C567770,vinclozolin,RIN2,"Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis","Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,1,D004997,3479,MESH:D011471,Ethinyl Estradiol,IGF1,Prostatic Neoplasms,Prostatic Neoplasms,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,2,C101278,3553,MESH:D006333,decursin,IL1B,Heart Failure,Heart Failure,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,3,C006253,10269,MESH:D005923,pirinixic acid,ZMPSTE24,"Glomerulosclerosis, Focal Segmental","Glomerulosclerosis, Focal Segmental",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,4,D015056,1543,MESH:D007680,1-Methyl-3-isobutylxanthine,CYP1A1,Kidney Neoplasms,Kidney Neoplasms,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,5,D008274,3569,MESH:D017202,Magnesium,IL6,Myocardial Ischemia,Myocardial Ischemia,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,6,C022838,10144,MESH:D054990,nickel chloride,FAM13A,Idiopathic Pulmonary Fibrosis,Idiopathic Pulmonary Fibrosis,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,7,C078485,7139,MESH:D006333,pelargonidin-3-glucoside,TNNT2,Heart Failure,Heart Failure,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,8,D006923,7157,MESH:D015451,Hymecromone,TP53,"Leukemia, Lymphocytic, Chronic, B-Cell","Leukemia, Lymphocytic, Chronic, B-Cell",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,9,C036567,348,MESH:D009765,perfluorodecanoic acid,APOE,Obesity,Obesity,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,10,D005466,7124,MESH:D066126,Fluorocarbons,TNF,Cardiotoxicity,Cardiotoxicity,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,11,C016811,213,MESH:D003928,tyloxapol,ALB,Diabetic Nephropathies,Diabetic Nephropathies,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,12,C018381,4353,MESH:D003921,salvin,MPO,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,13,C005499,2566,MESH:D019969,honokiol,GABRG2,Amphetamine-Related Disorders,Amphetamine-Related Disorders,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,14,C061132,7124,MESH:D017240,diphenyldiselenide,TNF,Mitochondrial Myopathies,Mitochondrial Myopathies,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,15,C030935,3575,MESH:D008106,benz(a)anthracene,IL7R,"Liver Cirrhosis, Experimental","Liver Cirrhosis, Experimental",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,16,C020758,348,MESH:D003327,indium trichloride,APOE,Coronary Disease,Coronary Disease,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,17,C025643,4353,MESH:D012771,vinclozolin,MPO,"Shock, Hemorrhagic","Shock, Hemorrhagic",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,18,D001564,79822,MESH:D004715,Benzo(a)pyrene,ARHGAP28,Endometriosis,Endometriosis,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,19,D000638,581,MESH:D011471,Amiodarone,BAX,Prostatic Neoplasms,Prostatic Neoplasms,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,20,D008701,94081,MESH:D004195,Methapyrilene,SFXN1,"Disease Models, Animal","Disease Models, Animal",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,21,C113580,815,MESH:D006527,U 0126,CAMK2A,Hepatolenticular Degeneration,Hepatolenticular Degeneration,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,22,D010126,4693,MESH:C537849,Ozone,NDP,Norrie disease,Norrie disease,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,23,C031280,3162,MESH:D001778,pyrazole,HMOX1,Blood Coagulation Disorders,Blood Coagulation Disorders,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,24,D003471,170302,MESH:C536300,Cuprizone,ARX,Partington X-linked mental retardation syndrome,Partington X-linked mental retardation syndrome,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,25,D013265,7124,MESH:D001929,Stigmasterol,TNF,Brain Edema,Brain Edema,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,26,D015112,7124,MESH:D056486,4-Nitroquinoline-1-oxide,TNF,Chemical and Drug Induced Liver Injury,Chemical and Drug Induced Liver Injury,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,27,D014635,2919,MESH:D016535,Valproic Acid,CXCL1,Bronchial Hyperreactivity,Bronchial Hyperreactivity,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,28,D008769,4790,MESH:D058186,Methylnitronitrosoguanidine,NFKB1,Acute Kidney Injury,Acute Kidney Injury,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,29,D001564,5902,MESH:D007680,Benzo(a)pyrene,RANBP1,Kidney Neoplasms,Kidney Neoplasms,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,30,D005947,462,MESH:D020152,Glucose,SERPINC1,Antithrombin III Deficiency,Antithrombin III Deficiency,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,31,C013015,213,MESH:D002318,hesperetin,ALB,Cardiovascular Diseases,Cardiovascular Diseases,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,32,C424802,581,MESH:D009203,atractylenolide III,BAX,Myocardial Infarction,Myocardial Infarction,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,33,D005632,4313,MESH:D001019,Fructose,MMP2,Aortic Rupture,Aortic Rupture,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,34,C118852,7124,MESH:D010146,"S,S'-1,4-phenylene-bis(1,2-ethanediyl)bis-isothiourea",TNF,Pain,Pain,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,35,C439829,760,MESH:C536058,"N-(3-chloro-7-indolyl)-1,4-benzenedisulphonamide",CA2,Osteopetrosis with renal tubular acidosis,Osteopetrosis with renal tubular acidosis,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,36,C569869,5925,MESH:D002277,"malondialdehyde-low density lipoprotein, human",RB1,Carcinoma,Carcinoma,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,37,D001397,207,MESH:D011125,Azoxymethane,AKT1,Adenomatous Polyposis Coli,Adenomatous Polyposis Coli,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,38,D000395,406928,MESH:D019970,"Air Pollutants, Occupational",MIR137,Cocaine-Related Disorders,Cocaine-Related Disorders,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,39,D001564,4137,MESH:D012131,Benzo(a)pyrene,MAPT,Respiratory Insufficiency,Respiratory Insufficiency,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,40,C027820,4780,MESH:D000690,ligustilide,NFE2L2,Amyotrophic Lateral Sclerosis,Amyotrophic Lateral Sclerosis,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,41,D019284,4128,MESH:D004715,Thapsigargin,MAOA,Endometriosis,Endometriosis,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,42,C000588915,6615,MESH:D014517,WJ1398-1,SNAI1,Ureteral Obstruction,Ureteral Obstruction,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,43,D012265,3832,MESH:D006528,Ribonucleotides,KIF11,"Carcinoma, Hepatocellular","Carcinoma, Hepatocellular",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,44,C036423,2147,MESH:D013927,1-aminomethylphosphonic acid,F2,Thrombosis,Thrombosis,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,45,D004997,55294,MESH:D003528,Ethinyl Estradiol,FBXW7,"Carcinoma, Adenoid Cystic","Carcinoma, Adenoid Cystic",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,46,C521105,581,MESH:D003921,dimethoxycurcumin,BAX,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,47,C088860,8434,MESH:D008106,"4-((3-bromophenyl)amino)-6,7-dimethoxyquinazoline",RECK,"Liver Cirrhosis, Experimental","Liver Cirrhosis, Experimental",1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,48,D008078,7124,MESH:D005234,"Cholesterol, LDL",TNF,Fatty Liver,Fatty Liver,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,1,49,D004958,8289,MESH:D016889,Estradiol,ARID1A,Endometrial Neoplasms,Endometrial Neoplasms,1,correct,0,2
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,0,C025643,54453,MESH:C567770,vinclozolin,RIN2,"Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis","Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis",1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,1,D004997,3479,MESH:D011471,Ethinyl Estradiol,IGF1,Prostatic Neoplasms,Prostatic Neoplasms,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,2,C101278,3553,MESH:D006333,decursin,IL1B,Heart Failure,Heart Failure,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,3,C006253,10269,MESH:D005923,pirinixic acid,ZMPSTE24,"Glomerulosclerosis, Focal Segmental","Glomerulosclerosis, Focal Segmental",1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,4,D015056,1543,MESH:D007680,1-Methyl-3-isobutylxanthine,CYP1A1,Kidney Neoplasms,Kidney Neoplasms,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,5,D008274,3569,MESH:D017202,Magnesium,IL6,Myocardial Ischemia,Myocardial Ischemia,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,6,C022838,10144,MESH:D054990,nickel chloride,FAM13A,Idiopathic Pulmonary Fibrosis,Idiopathic Pulmonary Fibrosis,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,7,C078485,7139,MESH:D006333,pelargonidin-3-glucoside,TNNT2,Heart Failure,Heart Failure,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,8,D006923,7157,MESH:D015451,Hymecromone,TP53,"Leukemia, Lymphocytic, Chronic, B-Cell","Leukemia, Lymphocytic, Chronic, B-Cell",1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,9,C036567,348,MESH:D009765,perfluorodecanoic acid,APOE,Obesity,Obesity,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,10,D005466,7124,MESH:D066126,Fluorocarbons,TNF,Cardiotoxicity,Cardiotoxicity,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,11,C016811,213,MESH:D003928,tyloxapol,ALB,Diabetic Nephropathies,Diabetic Nephropathies,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,12,C018381,4353,MESH:D003921,salvin,MPO,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,13,C005499,2566,MESH:D019969,honokiol,GABRG2,Amphetamine-Related Disorders,Amphetamine-Related Disorders,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,14,C061132,7124,MESH:D017240,diphenyldiselenide,TNF,Mitochondrial Myopathies,Mitochondrial Myopathies,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,15,C030935,3575,MESH:D008106,benz(a)anthracene,IL7R,"Liver Cirrhosis, Experimental","Liver Cirrhosis, Experimental",1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,16,C020758,348,MESH:D003327,indium trichloride,APOE,Coronary Disease,Coronary Disease,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,17,C025643,4353,MESH:D012771,vinclozolin,MPO,"Shock, Hemorrhagic","Shock, Hemorrhagic",1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,18,D001564,79822,MESH:D004715,Benzo(a)pyrene,ARHGAP28,Endometriosis,Endometriosis,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,19,D000638,581,MESH:D011471,Amiodarone,BAX,Prostatic Neoplasms,Prostatic Neoplasms,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,20,D008701,94081,MESH:D004195,Methapyrilene,SFXN1,"Disease Models, Animal","Disease Models, Animal",1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,21,C113580,815,MESH:D006527,U 0126,CAMK2A,Hepatolenticular Degeneration,Hepatolenticular Degeneration,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,22,D010126,4693,MESH:C537849,Ozone,NDP,Norrie disease,Norrie disease,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,23,C031280,3162,MESH:D001778,pyrazole,HMOX1,Blood Coagulation Disorders,Blood Coagulation Disorders,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,24,D003471,170302,MESH:C536300,Cuprizone,ARX,Partington X-linked mental retardation syndrome,Partington X-linked mental retardation syndrome,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,25,D013265,7124,MESH:D001929,Stigmasterol,TNF,Brain Edema,Brain Edema,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,26,D015112,7124,MESH:D056486,4-Nitroquinoline-1-oxide,TNF,Chemical and Drug Induced Liver Injury,Chemical and Drug Induced Liver Injury,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,27,D014635,2919,MESH:D016535,Valproic Acid,CXCL1,Bronchial Hyperreactivity,Bronchial Hyperreactivity,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,28,D008769,4790,MESH:D058186,Methylnitronitrosoguanidine,NFKB1,Acute Kidney Injury,Acute Kidney Injury,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,29,D001564,5902,MESH:D007680,Benzo(a)pyrene,RANBP1,Kidney Neoplasms,Kidney Neoplasms,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,30,D005947,462,MESH:D020152,Glucose,SERPINC1,Antithrombin III Deficiency,Antithrombin III Deficiency,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,31,C013015,213,MESH:D002318,hesperetin,ALB,Cardiovascular Diseases,Cardiovascular Diseases,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,32,C424802,581,MESH:D009203,atractylenolide III,BAX,Myocardial Infarction,Myocardial Infarction,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,33,D005632,4313,MESH:D001019,Fructose,MMP2,Aortic Rupture,Aortic Rupture,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,34,C118852,7124,MESH:D010146,"S,S'-1,4-phenylene-bis(1,2-ethanediyl)bis-isothiourea",TNF,Pain,Pain,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,35,C439829,760,MESH:C536058,"N-(3-chloro-7-indolyl)-1,4-benzenedisulphonamide",CA2,Osteopetrosis with renal tubular acidosis,Osteopetrosis with renal tubular acidosis,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,36,C569869,5925,MESH:D002277,"malondialdehyde-low density lipoprotein, human",RB1,Carcinoma,Carcinoma,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,37,D001397,207,MESH:D011125,Azoxymethane,AKT1,Adenomatous Polyposis Coli,Adenomatous Polyposis Coli,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,38,D000395,406928,MESH:D019970,"Air Pollutants, Occupational",MIR137,Cocaine-Related Disorders,Cocaine-Related Disorders,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,39,D001564,4137,MESH:D012131,Benzo(a)pyrene,MAPT,Respiratory Insufficiency,Respiratory Insufficiency,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,40,C027820,4780,MESH:D000690,ligustilide,NFE2L2,Amyotrophic Lateral Sclerosis,Amyotrophic Lateral Sclerosis,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,41,D019284,4128,MESH:D004715,Thapsigargin,MAOA,Endometriosis,Endometriosis,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,42,C000588915,6615,MESH:D014517,WJ1398-1,SNAI1,Ureteral Obstruction,Ureteral Obstruction,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,43,D012265,3832,MESH:D006528,Ribonucleotides,KIF11,"Carcinoma, Hepatocellular","Carcinoma, Hepatocellular",1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,44,C036423,2147,MESH:D013927,1-aminomethylphosphonic acid,F2,Thrombosis,Thrombosis,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,45,D004997,55294,MESH:D003528,Ethinyl Estradiol,FBXW7,"Carcinoma, Adenoid Cystic","Carcinoma, Adenoid Cystic",1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,46,C521105,581,MESH:D003921,dimethoxycurcumin,BAX,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,47,C088860,8434,MESH:D008106,"4-((3-bromophenyl)amino)-6,7-dimethoxyquinazoline",RECK,"Liver Cirrhosis, Experimental","Liver Cirrhosis, Experimental",1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,48,D008078,7124,MESH:D005234,"Cholesterol, LDL",TNF,Fatty Liver,Fatty Liver,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,5,49,D004958,8289,MESH:D016889,Estradiol,ARID1A,Endometrial Neoplasms,Endometrial Neoplasms,1,correct,0,6
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,0,C025643,54453,MESH:C567770,vinclozolin,RIN2,"Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis","Macrocephaly, Alopecia, Cutis Laxa, and Scoliosis",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,1,D004997,3479,MESH:D011471,Ethinyl Estradiol,IGF1,Prostatic Neoplasms,Prostatic Neoplasms,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,2,C101278,3553,MESH:D006333,decursin,IL1B,Heart Failure,Heart Failure,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,3,C006253,10269,MESH:D005923,pirinixic acid,ZMPSTE24,"Glomerulosclerosis, Focal Segmental","Glomerulosclerosis, Focal Segmental",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,4,D015056,1543,MESH:D007680,1-Methyl-3-isobutylxanthine,CYP1A1,Kidney Neoplasms,Kidney Neoplasms,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,5,D008274,3569,MESH:D017202,Magnesium,IL6,Myocardial Ischemia,Myocardial Ischemia,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,6,C022838,10144,MESH:D054990,nickel chloride,FAM13A,Idiopathic Pulmonary Fibrosis,Idiopathic Pulmonary Fibrosis,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,7,C078485,7139,MESH:D006333,pelargonidin-3-glucoside,TNNT2,Heart Failure,Heart Failure,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,8,D006923,7157,MESH:D015451,Hymecromone,TP53,"Leukemia, Lymphocytic, Chronic, B-Cell","Leukemia, Lymphocytic, Chronic, B-Cell",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,9,C036567,348,MESH:D009765,perfluorodecanoic acid,APOE,Obesity,Obesity,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,10,D005466,7124,MESH:D066126,Fluorocarbons,TNF,Cardiotoxicity,Cardiotoxicity,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,11,C016811,213,MESH:D003928,tyloxapol,ALB,Diabetic Nephropathies,Diabetic Nephropathies,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,12,C018381,4353,MESH:D003921,salvin,MPO,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,13,C005499,2566,MESH:D019969,honokiol,GABRG2,Amphetamine-Related Disorders,Amphetamine-Related Disorders,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,14,C061132,7124,MESH:D017240,diphenyldiselenide,TNF,Mitochondrial Myopathies,Mitochondrial Myopathies,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,15,C030935,3575,MESH:D008106,benz(a)anthracene,IL7R,"Liver Cirrhosis, Experimental","Liver Cirrhosis, Experimental",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,16,C020758,348,MESH:D003327,indium trichloride,APOE,Coronary Disease,Coronary Disease,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,17,C025643,4353,MESH:D012771,vinclozolin,MPO,"Shock, Hemorrhagic","Shock, Hemorrhagic",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,18,D001564,79822,MESH:D004715,Benzo(a)pyrene,ARHGAP28,Endometriosis,Endometriosis,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,19,D000638,581,MESH:D011471,Amiodarone,BAX,Prostatic Neoplasms,Prostatic Neoplasms,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,20,D008701,94081,MESH:D004195,Methapyrilene,SFXN1,"Disease Models, Animal","Disease Models, Animal",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,21,C113580,815,MESH:D006527,U 0126,CAMK2A,Hepatolenticular Degeneration,Hepatolenticular Degeneration,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,22,D010126,4693,MESH:C537849,Ozone,NDP,Norrie disease,Norrie disease,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,23,C031280,3162,MESH:D001778,pyrazole,HMOX1,Blood Coagulation Disorders,Blood Coagulation Disorders,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,24,D003471,170302,MESH:C536300,Cuprizone,ARX,Partington X-linked mental retardation syndrome,Partington X-linked mental retardation syndrome,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,25,D013265,7124,MESH:D001929,Stigmasterol,TNF,Brain Edema,Brain Edema,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,26,D015112,7124,MESH:D056486,4-Nitroquinoline-1-oxide,TNF,Chemical and Drug Induced Liver Injury,Chemical and Drug Induced Liver Injury,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,27,D014635,2919,MESH:D016535,Valproic Acid,CXCL1,Bronchial Hyperreactivity,Bronchial Hyperreactivity,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,28,D008769,4790,MESH:D058186,Methylnitronitrosoguanidine,NFKB1,Acute Kidney Injury,Acute Kidney Injury,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,29,D001564,5902,MESH:D007680,Benzo(a)pyrene,RANBP1,Kidney Neoplasms,Kidney Neoplasms,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,30,D005947,462,MESH:D020152,Glucose,SERPINC1,Antithrombin III Deficiency,Antithrombin III Deficiency,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,31,C013015,213,MESH:D002318,hesperetin,ALB,Cardiovascular Diseases,Cardiovascular Diseases,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,32,C424802,581,MESH:D009203,atractylenolide III,BAX,Myocardial Infarction,Myocardial Infarction,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,33,D005632,4313,MESH:D001019,Fructose,MMP2,Aortic Rupture,Aortic Rupture,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,34,C118852,7124,MESH:D010146,"S,S'-1,4-phenylene-bis(1,2-ethanediyl)bis-isothiourea",TNF,Pain,Pain,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,35,C439829,760,MESH:C536058,"N-(3-chloro-7-indolyl)-1,4-benzenedisulphonamide",CA2,Osteopetrosis with renal tubular acidosis,Osteopetrosis with renal tubular acidosis,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,36,C569869,5925,MESH:D002277,"malondialdehyde-low density lipoprotein, human",RB1,Carcinoma,Carcinoma,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,37,D001397,207,MESH:D011125,Azoxymethane,AKT1,Adenomatous Polyposis Coli,Adenomatous Polyposis Coli,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,38,D000395,406928,MESH:D019970,"Air Pollutants, Occupational",MIR137,Cocaine-Related Disorders,Cocaine-Related Disorders,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,39,D001564,4137,MESH:D012131,Benzo(a)pyrene,MAPT,Respiratory Insufficiency,Respiratory Insufficiency,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,40,C027820,4780,MESH:D000690,ligustilide,NFE2L2,Amyotrophic Lateral Sclerosis,Amyotrophic Lateral Sclerosis,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,41,D019284,4128,MESH:D004715,Thapsigargin,MAOA,Endometriosis,Endometriosis,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,42,C000588915,6615,MESH:D014517,WJ1398-1,SNAI1,Ureteral Obstruction,Ureteral Obstruction,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,43,D012265,3832,MESH:D006528,Ribonucleotides,KIF11,"Carcinoma, Hepatocellular","Carcinoma, Hepatocellular",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,44,C036423,2147,MESH:D013927,1-aminomethylphosphonic acid,F2,Thrombosis,Thrombosis,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,45,D004997,55294,MESH:D003528,Ethinyl Estradiol,FBXW7,"Carcinoma, Adenoid Cystic","Carcinoma, Adenoid Cystic",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,46,C521105,581,MESH:D003921,dimethoxycurcumin,BAX,"Diabetes Mellitus, Experimental","Diabetes Mellitus, Experimental",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,47,C088860,8434,MESH:D008106,"4-((3-bromophenyl)amino)-6,7-dimethoxyquinazoline",RECK,"Liver Cirrhosis, Experimental","Liver Cirrhosis, Experimental",1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,48,D008078,7124,MESH:D005234,"Cholesterol, LDL",TNF,Fatty Liver,Fatty Liver,1,correct,0,21
+Qwen/Qwen3.8-27B,ChemicalID,1,C_algorithmic,20,49,D004958,8289,MESH:D016889,Estradiol,ARID1A,Endometrial Neoplasms,Endometrial Neoplasms,1,correct,0,21
