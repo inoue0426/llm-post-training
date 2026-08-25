@@ -10,8 +10,8 @@ This repository is a notebook-first collection of post-training experiments. I u
 - **Supervised fine-tuning (SFT):** instruction tuning and task-specific adaptation
 - **Preference optimization:** DPO and IPO, including prompt/completion boundary validation
 - **Reinforcement-learning-style tuning:** GRPO experiments
-- **Reliability evaluation:** distractors, counterfactuals, abstention, and no-evidence cases
-- **Experimental design:** multi-seed runs, entity-disjoint splits, controlled perturbations, and explicit baselines
+- **Reliability evaluation:** distractors, counterfactuals, abstention, no-evidence cases, and prompt-sensitivity controls
+- **Experimental design:** multi-seed runs, entity-disjoint splits, controlled perturbations, explicit baselines, and follow-up tests for alternative explanations
 - **Large-model evaluation:** BF16 inference and zero-shot sanity checks on GPU/HPC environments
 - **Biomedical applications:** drug-target retrieval and evidence-grounded Chemical -> Gene -> Disease reasoning using CTD-derived relations
 
@@ -49,10 +49,19 @@ The task is intentionally simple so that specific behaviors can be isolated with
 - evidence sufficiency and abstention,
 - counterfactual robustness,
 - entity-disjoint generalization,
-- supervision-induced trade-offs, and
-- behavior under stronger zero-shot models.
+- supervision-induced trade-offs,
+- behavior under stronger zero-shot models, and
+- whether apparent failures survive prompt and position controls.
 
 The progression includes vanilla SFT, distractor-aware SFT, no-path supervision, DPO / IPO, mixture and confidence baselines, adapter interpolation, and strong-model sanity checks.
+
+### Example of a negative result
+
+One exploratory Qwen3.8-27B experiment initially showed a large false-abstention effect when irrelevant evidence was added under the original task prompt. With the correct edge fixed in the first position, accuracy changed from **0.94 at zero distractors** to **0.44 at one distractor** and **0.32 at five distractors**.
+
+Follow-up controls showed that this was not a robust evidence-selection failure. Rewriting the instruction as an explicit exact-match lookup eliminated the effect completely: accuracy was **1.00 at 0, 1, 5, and 20 distractors**, with zero false abstentions. An algorithmic step-by-step formulation showed the same behavior in the tested conditions.
+
+This is kept as a useful diagnostic result: a striking reliability failure can disappear once the task specification is made explicit. The broader lesson is to test prompt sensitivity and alternative explanations before treating an observed failure mode as a model capability limit.
 
 This is an exploratory machine-learning testbed, not a claim that the benchmark captures the full complexity of biomedical or clinical reasoning.
 
@@ -94,7 +103,7 @@ Environment-specific paths are examples; adjust `ROOT`, cache directories, and o
 ## Repository layout
 
 ```text
-llm-tuning-playground/
+llm-post-training/
 ├── README.md
 ├── requirements.txt
 ├── .env.example
@@ -106,7 +115,7 @@ llm-tuning-playground/
 
 These notebooks are research prototypes rather than a versioned software package. Model APIs and TRL/Transformers interfaces evolve quickly, so exact reproduction may require matching the package versions used by an individual notebook.
 
-Where an implementation issue was found—for example, a prompt-completion token-boundary problem in preference tuning—corrected experiments are kept explicitly rather than silently overwriting the experimental history.
+Where an implementation issue was found—for example, a prompt-completion token-boundary problem in preference tuning—corrected experiments are kept explicitly rather than silently overwriting the experimental history. The same principle applies to behavioral findings: follow-up controls that weaken an initial interpretation are documented rather than omitted.
 
 ## Disclaimer
 
